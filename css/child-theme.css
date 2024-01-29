@@ -192,6 +192,286 @@ p {
     font-size: 16px;
 }
 
+.imgContainer {
+	text-align: center;
+}
+
+.imgContainer:hover {
+	opacity: 0.5;
+}
+
+.outer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+	padding-top: 30px;
+  }
+
+ .imgContainer {
+    text-align: center;
+}
+
+.actionPhoto {
+    margin: 0;
+  }
+
+.actionPhoto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-block-heading {
+    margin: 5px 0;
+}
+
+h1 {
+	font-size: 31px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*pet information, will be used on pages with many listings as well as featured*/
+
+.petName{
+	color: var(--fhs-blue);
+	font-weight: bold;
+}
+
+.petDescription {
+	color: var(--fhs-black-hover);
+}
+
+.petName,
+.petDescription {
+	display: block;
+	padding-left: 15px;
+}
+
+/*end*/
+
+h2 {
+	font-size: 26px;
+}
+
+/*for any headers that are blue instead of black*/
+
+.h2blue {
+    color: var(--fhs-blue);
+}
+
+.h3blue {
+    color: var(--fhs-blue);
+}
+
+/*end*/
+
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+/*for any block with the green border*/
+
+.hoursBlock {
+	border: 1px solid var(--fhs-green);
+	border-radius: 10px;
+}
+/*end*/
+
+/*classes for aligning something to the left, right or center*/
+
+.left-align {
+	text-align: left;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/*end*/
+
+/*buttons on adopt page*/
+
+.adoptButtons {
+	height: 48px;
+	width: 196px;
+	border-radius: 200px;
+	border: 0px;
+	background-color: var(--fhs-blue);
+	color: var(--fhs-white);
+	font-size: 14px;
+	font-weight: bold;
+}
+.adoptButtons:hover {
+	background-color: var(--fhs-blue-hover);
+	color: var(--fhs-white);
+}
+
+.adoptButtons:active {
+	background-color: var(--fhs-blue);
+}
+
+/*end*/
+
+/*for displaying info next to eachother, whether it's text or images*/
+
+.container{
+	display: flex;
+}
+.rows{
+	flex: 1;
+	padding: 10px;
+}
+
+/*end*/
+
+/*specific photo on adopt page, along with the featured photos of pets*/
+
+.wp-block-image {
+	height: 402px;
+	width: 590px;
+}
+
+.imgFeatured {
+	height: 226px;
+	width: 226px;
+}
+
+/*end*/
+
+/*article page*/
+
+.imgArticle {
+    height: 394px;
+    width: 315px;
+    border-radius: 10px;
+}
+
+.articleBlock {
+    height: 77px;
+    width: 1146px;
+    background-color: var(--fhs-blue);
+}
+
+.articleDate {
+    color: var(--fhs-white);
+    font-size: 26px;
+    text-align: left;
+}
+
+.articleAuthor {
+    color: var(--fhs-white);
+    font-size: 26px;
+    text-align: right;
+}
+
+.smallImgArticle {
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.iconSocial {
+    height: 50px;
+    width: 50px;
+}
+
+/*end*/
+
+/*featured pets on adopt page*/
+
+.containerf{
+	display: flex;
+	padding-top: 50px;
+}
+.rowf{
+	height: 323px;
+	width: 227px;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*button on ordinance and tethering page*/
+
+.tetherButton {
+    height: 48px;
+    width: 754px;
+    border-radius: 200px;
+    color: var(--fhs-white);
+    text-decoration: bold;
+    background-color: var(--fhs-blue);
+}
+
+.tetherButton:hover {
+    height: 48px;
+    width: 754px;
+    border-radius: 200px;
+    color: var(--fhs-white);
+    text-decoration: bold;
+    background-color: var(--fhs-blue-hover);
+}
+
+.tetherButton:active {
+    height: 48px;
+    width: 754px;
+    border-radius: 200px;
+    color: var(--fhs-white);
+    text-decoration: bold;
+    background-color: var(--fhs-blue);
+}
+
+/*end*/
+
+/*resources photos and buttons on resources and forms page*/
+
+.resourceImg {
+    height: 469px;
+    width: 362px;
+    border: 2px solid var(--fhs-black);
+}
+
+.resourceButton {
+    height: 54px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    text-decoration: bold;
+}
+
+.resourceButton:hover {
+    height: 54px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    text-decoration: bold;
+}
+
+.resourceButton:active {
+    height: 54px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    text-decoration: bold;
+}
+
 a:link { /*all links*/
     color: var(--fhs-blue);
 }
@@ -218,6 +498,8 @@ button.normalButtons { /*these are the blue buttons with hover in the lighter bl
     position: absolute;
     color: var(--fhs-white);
 }
+
+/*buttons on adopt page with specific height and width*/
 
 button.adoptButton {
     height: 56px;
@@ -246,9 +528,13 @@ button.returnButton {
     border-color: var(--fhs-white-hover);
 }
 
+/*buttons on pet page*/
+
 button.previousButton {
     background-color: var(--fhs-blue);
 }
+
+/*pdf form button on pet adoption application pages*/
 
 button.pdfButton {
     background-color: var(--fhs-green);
@@ -264,6 +550,20 @@ button.pdfButton {
 
 .pdfButton:active {
     background-color: var(--fhs-green);
+}
+
+/*for animal photos with name and description with box shadow. similar to featured pets on adopt page, but different size for the list of pets page*/
+
+.containerp{
+	display: flex;
+	padding-top: 50px;
+}
+.rowp{
+	height: 304px;
+	width: 266px;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 img.staff { /*all staff images on staff page*/
@@ -287,6 +587,68 @@ img.home { /*image solely on home page*/
     border-color: (var(--fhs-green));
     border-radius: 10px;
 }
+
+/*adoption info page*/
+
+.infoPhoto1 {
+    height: 302px;
+    width: 555px;
+    border-radius: 10px;
+}
+
+.infoPhoto2 {
+    height: 389px;
+    width: 462px;
+    border-radius: 10px;
+}
+
+.infoButtons {
+    height: 55px;
+    width: 362px;
+    background-color: var(--fhs-blue);
+    border-radius: 200px;
+}
+
+.infoButtons:hover {
+    height: 55px;
+    width: 362px;
+    background-color: var(--fhs-blue-hover);
+    border-radius: 200px;
+}
+
+.infoButtons:active {
+    height: 55px;
+    width: 362px;
+    background-color: var(--fhs-blue);
+    border-radius: 200px;
+}
+
+/*end*/
+
+/*rent a trap buttons*/
+
+.rentButtons {
+    height: 48px;
+    width: 465px;
+    background-color: var(--fhs-blue);
+    border-radius: 200px;
+}
+
+.rentButtons:hover {
+    height: 48px;
+    width: 465px;
+    background-color: var(--fhs-blue-hover);
+    border-radius: 200px;
+}
+
+.rentButtons:active {
+    height: 48px;
+    width: 465px;
+    background-color: var(--fhs-blue);
+    border-radius: 200px;
+}
+
+/*end*/
 
 abbr[title] {
     -webkit-text-decoration: underline dotted;
