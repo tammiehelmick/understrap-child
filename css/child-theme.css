@@ -329,7 +329,7 @@ h2 {
 
 /*for displaying info next to eachother, whether it's text or images*/
 
-.container{
+.containers{
 	display: flex;
 }
 .rows{
