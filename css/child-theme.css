@@ -534,6 +534,72 @@ button.previousButton {
     background-color: var(--fhs-blue);
 }
 
+/*services buttons*/
+
+.serviceButton {
+    height: 65px;
+    width: 290px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    text-decoration: bold;
+}
+
+.serviceButton:hover {
+    height: 65px;
+    width: 290px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    text-decoration: bold;
+}
+
+.serviceButton:active {
+    height: 65px;
+    width: 290px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    text-decoration: bold;
+}
+
+/*help button*/
+
+.helpButton {
+    height: 54px;
+    width: 349px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    text-decoration: bold;
+}
+
+.helpButton:hover {
+    height: 54px;
+    width: 349px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    text-decoration: bold;
+}
+
+.helpButton:active {
+    height: 54px;
+    width: 349px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    text-decoration: bold;
+}
+
+/*rescued animals images*/
+
+.rescueImg {
+    height: 203px;
+    width: 267px;
+    border-radius: 10px
+}
+
 /*pdf form button on pet adoption application pages*/
 
 button.pdfButton {
