@@ -100,6 +100,52 @@
     }
 }
 
+/* Beginning of Kaitlyn's Code: */
+
+header {
+    padding: 30px;
+    text-align: left;
+    background-color: var(--fhs-white-hover);
+    font-size: 30px;
+	color: var(--fhs-black) !important;
+ }
+
+/* header links */
+header a {
+    float: left;
+    color: var(--fhs-black) !important;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px !important;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* logo link */
+  header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* background color on hover */
+  header a:hover {
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-black) !important;
+  }
+  
+  /* active/current link */
+  header a.active {
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+  }
+
+nav#main-nav {
+    background-color: var(--fhs-white-hover) !important;
+}
+
+/* End of Kaitlyn's Code: */
+
 body {
     margin: 0;
     font-family: var(--bs-body-font-family);
