@@ -100,52 +100,6 @@
     }
 }
 
-/* Beginning of Kaitlyn's Code: */
-
-header {
-    padding: 30px;
-    text-align: left;
-    background-color: var(--fhs-white-hover);
-    font-size: 30px;
-	color: var(--fhs-black) !important;
- }
-
-/* header links */
-header a {
-    float: left;
-    color: var(--fhs-black) !important;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px !important;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-  
-  /* logo link */
-  header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  /* background color on hover */
-  header a:hover {
-    background-color: var(--fhs-blue-hover);
-    color: var(--fhs-black) !important;
-  }
-  
-  /* active/current link */
-  header a.active {
-    background-color: var(--fhs-blue);
-    color: var(--fhs-white);
-  }
-
-nav#main-nav {
-    background-color: var(--fhs-white-hover) !important;
-}
-
-/* End of Kaitlyn's Code: */
-
 body {
     margin: 0;
     font-family: var(--bs-body-font-family);
@@ -179,7 +133,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
+    padding-top: 30px;
     font-size: 31px;
+    text-align: center;
 }
 
 @media (min-width: 1200px) {
@@ -233,10 +189,9 @@ p {
     color: var(--fhs-black);
 }
 
-.jobTitle {
-    color: var(--fhs-blue);
-    font-size: 16px;
-}
+/*beginning of Jessica's code*/
+
+/*for displaying images with text underneath. example - home page or staff page*/
 
 .imgContainer {
 	text-align: center;
@@ -271,6 +226,7 @@ p {
 }
 
 h1 {
+    padding-top: 30px;
 	font-size: 31px;
 	text-align: center;
 }
@@ -301,6 +257,8 @@ a {
 
 h2 {
 	font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*for any headers that are blue instead of black*/
@@ -363,15 +321,68 @@ h2 {
 	font-weight: bold;
 }
 .adoptButtons:hover {
+	height: 48px;
+	width: 196px;
+	border-radius: 200px;
+	border: 0px;
 	background-color: var(--fhs-blue-hover);
 	color: var(--fhs-white);
+	font-size: 14px;
+	font-weight: bold;
 }
 
 .adoptButtons:active {
+	height: 48px;
+	width: 196px;
+	border-radius: 200px;
+	border: 0px;
 	background-color: var(--fhs-blue);
+	color: var(--fhs-white);
+	font-size: 14px;
+	font-weight: bold;
 }
 
 /*end*/
+
+/*dropdown menus*/
+
+.dropdown {
+    height: 41px;
+    width: 166px;
+    background-color: var(--fhs-white);
+    color: var(--fhs-black);
+    border: 1px solid var(--fhs-black);
+    border-radius: 5px;
+}
+
+/*adoptable pets element on wordpress - for all animals*/
+
+.pet-name {
+    text-decoration: bold;
+    color: var(--fhs-blue);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.pet-breed {
+    color: var(--fhs-white-hover);
+    font-size: 16px;
+}
+
+.pet-age {
+    color: var(--fhs-white-hover);
+    font-size: 16px;
+}
+
+.pet-image {
+    height: 192px;
+    width: 265px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
 
 /*for displaying info next to eachother, whether it's text or images*/
 
@@ -385,16 +396,11 @@ h2 {
 
 /*end*/
 
-/*specific photo on adopt page, along with the featured photos of pets*/
+/*specific photo on adopt page*/
 
 .wp-block-image {
 	height: 402px;
 	width: 590px;
-}
-
-.imgFeatured {
-	height: 226px;
-	width: 226px;
 }
 
 /*end*/
@@ -438,18 +444,46 @@ h2 {
 
 /*end*/
 
-/*featured pets on adopt page*/
+/*file a lost pet button*/
 
-.containerf{
-	display: flex;
-	padding-top: 50px;
+.filePetButton {
+    height: 64px;
+    width: 950px;
+    border-radius: 200px;
+    color: var(--fhs-white);
+    text-decoration: bold;
+    background-color: var(--fhs-blue);
 }
-.rowf{
-	height: 323px;
-	width: 227px;
-	border-radius: 10px;
-	margin: 0 auto;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+.filePetButton:hover {
+    height: 64px;
+    width: 950px;
+    border-radius: 200px;
+    color: var(--fhs-white);
+    text-decoration: bold;
+    background-color: var(--fhs-blue-hover);
+}
+
+.filePetButton:active {
+    height: 64px;
+    width: 950px;
+    border-radius: 200px;
+    color: var(--fhs-white);
+    text-decoration: bold;
+    background-color: var(--fhs-blue);
+}
+
+/*wildlife page*/
+
+.wildlife .h2 {
+    color: var(--fhs-blue);
+    font-size: 26px;
+}
+
+.imgWildlife {
+    height: 307px;
+    width: 490px;
+    border-radius: 10px;
 }
 
 /*button on ordinance and tethering page*/
@@ -574,6 +608,47 @@ button.returnButton {
     border-color: var(--fhs-white-hover);
 }
 
+/*adoption info page*/
+
+.img-adopt1 {
+    height: 302px;
+    width: 555px;
+    border-radius: 10px;
+}
+
+.img-adopt2 {
+    height: 389px;
+    width: 462px;
+    border-radius: 10px;
+}
+
+.appButton {
+    height: 55px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.appButton:hover {
+    height: 55px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.appButton:active {
+    height: 55px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
 /*buttons on pet page*/
 
 button.previousButton {
@@ -588,7 +663,7 @@ button.previousButton {
     border-radius: 200px;
     background-color: var(--fhs-blue);
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
 }
 
 .serviceButton:hover {
@@ -597,7 +672,7 @@ button.previousButton {
     border-radius: 200px;
     background-color: var(--fhs-blue-hover);
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
 }
 
 .serviceButton:active {
@@ -606,7 +681,310 @@ button.previousButton {
     border-radius: 200px;
     background-color: var(--fhs-blue);
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
+}
+
+/*services images*/
+
+.imgService {
+    height: 333px;
+    width: 460px;
+    border-radius: 10px;
+}
+
+/*any information block with thin black border*/
+
+.info-block-black {
+    border: 1px solid var(--fhs-black);
+}
+
+/*any text that needs to be blue AND bold*/
+
+.blue-text {
+    color: var(--fhs-blue);
+    font-weight: bold;
+}
+
+/*style for bullet points*/
+
+ul {
+    list-style-type: disc;
+}
+
+/*end of life services*/
+
+.img-eol {
+    height: 401px;
+    width: 460px;
+    border-radius: 10px;
+}
+
+.img-urn {
+    height: 210px;
+    width: 219px;
+    border-radius: 10px;
+}
+
+/*surrender pet buttons, checklist button on disaster emergency animal shelter page*/
+
+.surrenderButton {
+    height: 72px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.surrenderButton:hover {
+    height: 72px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.surrenderButton:active {
+    height: 72px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+/*printable disaster shelter paperwork button*/
+
+.disasterButton {
+    height: 72px;
+    width: 558px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.disasterButton:hover {
+    height: 72px;
+    width: 558px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.disasterButton:active {
+    height: 72px;
+    width: 558px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+/*contact us if you qualify button*/
+
+.contactButton {
+    height: 79px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.contactButton:hover {
+    height: 79px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.contactButton:active {
+    height: 79px;
+    width: 362px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+/*retail images*/
+
+.img-retail {
+    height: 250px;
+    width: 409px;
+    border-radius: 10px;
+}
+
+/*get involved page*/
+
+.img-involve-main {
+    height: 277px;
+    width: 455px;
+    border-radius: 10px;
+}
+
+.img-involve-small {
+    height: 250px;
+    width: 250px;
+}
+
+.learnButton {
+    height: 48px;
+    width: 196px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.learnButton:hover {
+    height: 48px;
+    width: 196px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.learnButton:active {
+    height: 48px;
+    width: 196px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+/*humane hero page*/
+
+.img-hero {
+    height: 393px;
+    width: 362px;
+    border-radius: 10px;
+}
+
+.humaneButton {
+    height: 93px;
+    width: 558px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.humaneButton:hover {
+    height: 93px;
+    width: 558px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.humaneButton:active {
+    height: 93px;
+    width: 558px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+/*wishlist page*/
+
+.link .amazon-list {
+    color: var(--fhs-black);
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.img-wishlist {
+    height: 464px;
+    width: 691px;
+    border-radius: 10px;
+}
+
+/*volunteer page*/
+
+.volunteer-vid {
+    height: 534px;
+    width: 946px;
+    text-align: center;
+}
+
+.volunteerButton {
+    height: 48px;
+    width: 227px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.volunteerButton:hover {
+    height: 48px;
+    width: 227px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.volunteerButton:active {
+    height: 48px;
+    width: 227px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+/*image volunteer standards and code of conduct and guidelines pages*/
+
+.img-guidelines {
+    height: 242px;
+    width: 362px;
+    border-radius: 10px;
+}
+
+/*foster program page*/
+
+.fosterButton {
+    height: 48px;
+    width: 330px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.fosterButton:hover {
+    height: 48px;
+    width: 330px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue-hover);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.fosterButton:active {
+    height: 48px;
+    width: 330px;
+    border-radius: 200px;
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    font-weight: bold;
+}
+
+.img-foster {
+    height: 269px;
+    width: 359px;
+    border-radius: 10px;
 }
 
 /*help button*/
@@ -678,19 +1056,32 @@ button.pdfButton {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-img.staff { /*all staff images on staff page*/
+/*staff page*/
+
+.img-staff { /*all staff images on staff page*/
     height: 264px;
     width: 260px;
     border-radius: 10px;
 }
 
-img.aboutUs { /*image solely on about us page*/
+.job-staff {
+    color: var(--fhs-blue);
+    font-size: 16px;
+}
+
+.name-staff {
+    color: var(--fhs-black);
+    font-size: 16px;
+}
+
+
+.img-aboutUs { /*image solely on about us page*/
     height: 398px;
     width: 1146px;
     border-radius: 10px;
 }
 
-img.home { /*image solely on home page*/
+.img-home { /*image solely on home page*/
     height: 664px;
     width: 1441px;
 }
@@ -760,7 +1151,7 @@ img.home { /*image solely on home page*/
     border-radius: 200px;
 }
 
-/*end*/
+/*end of Jessica's code*/
 
 abbr[title] {
     -webkit-text-decoration: underline dotted;
