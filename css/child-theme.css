@@ -18169,3 +18169,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     }
 
 /*# sourceMappingURL=child-theme.css.map */
+
+footer#colophon {
+    background-color: #ff0000;
+}
