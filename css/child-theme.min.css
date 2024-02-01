@@ -18433,6 +18433,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
         border: 1px solid #e9ecef;
     }
 
+body, a, p, li, div, h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /*# sourceMappingURL=child-theme.css.map */
 
 
