@@ -102,7 +102,7 @@
 
 /* Beginning of Kaitlyn's Code:*/
 
-header {
+header#wrapper-navbar {
     padding: 0px;
     text-align: left;
     font-size: 30px;
