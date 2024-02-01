@@ -615,6 +615,331 @@ input[type=cancel], .um .um-button.um-alt { width: 100%; text-align: center; pad
 .walker_dot_green, .walker_dot_yellow, .walker_dot_orange {width: 50px}
 /*end of Tammie's code------------------------------------------------------------*/
 
+
+/*beginning of Additional CSS------------------------------------------------------------*/
+.imgContainer {
+	text-align: center;
+}
+
+.imgContainer:hover {
+	opacity: 0.5;
+}
+
+.outer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+	padding-top: 30px;
+  }
+
+ .imgContainer {
+    text-align: center;
+}
+
+.actionPhoto {
+    margin: 0;
+  }
+.actionPhoto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-block-heading {
+    margin: 5px 0;
+}
+
+h1 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 31px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.petName{
+	color: #0A3E5D;
+	font-weight: bold;
+}
+
+.petDescription {
+	color: #59626A;
+}
+
+.petName,
+.petDescription {
+	display: block;
+	padding-left: 15px;
+}
+
+h2 {
+	font-size: 26px;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.info-block-green {
+	border: 2px solid var(--fhs-green);
+	border-radius: 10px;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.adoptButtons {
+	height: 48px;
+	width: 196px;
+	border-radius: 200px;
+	border: 0px;
+	background-color: #0A3E5D;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+.adoptButtons:hover {
+	background-color: #52778C;
+	color: white;
+}
+
+.adoptButtons:active {
+	background-color: #0A3E5D;
+}
+
+.containers{
+	display: flex;
+}
+.rows{
+	flex: 1;
+	padding: 10px;
+}
+
+.wp-block-image {
+	height: 402px;
+	width: 590px;
+}
+
+.imgFeatured {
+	height: 226px;
+	width: 226px;
+}
+
+.containerf{
+	display: flex;
+	padding-top: 50px;
+}
+.rowf{
+	height: 323px;
+	width: 227px;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pet-element {
+	height: 304px;
+	width: 266px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+}
+.pet-breed {
+    color: var(--fhs-white-hover);
+    font-size: 16px;
+	padding-left: 10px;
+}
+
+.pet-age {
+    color: var(--fhs-white-hover);
+    font-size: 16px;
+}
+
+.pet-image {
+    height: 192px;
+    width: 265px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pet-name {
+		padding-left: 10px;
+    font-weight: bold;
+    color: var(--fhs-blue);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.containers{
+	display: flex;
+}
+.rows{
+	flex: 1;
+	padding: 10px;
+}
+
+.imgArticle {
+    height: 394px;
+    width: 315px;
+    border-radius: 10px;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.articleBlock {
+    height: 80px;
+    width: 1300px;
+    background-color: var(--fhs-blue);
+	display: flex;
+	justify-content: space-between;
+	padding-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.articleDate {
+    color: var(--fhs-white);
+    font-size: 26px;
+    text-align: left;
+	padding-left: 30px;
+}
+
+.articleAuthor {
+    color: var(--fhs-white);
+    font-size: 26px;
+    text-align: right;
+}
+
+.smallImgArticle {
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.iconSocial {
+    height: 50px;
+    width: 50px;
+}
+
+.imgCenter {
+	text-align: center;
+}
+.container-next-center {
+	display: flex;
+	text-align: center;
+}
+.row-next-center{
+	flex: 1;
+	padding: 10px;
+}
+
+.container-next-left {
+	display: flex;
+    text-align: left;
+}
+
+.row-next-left{
+	flex: 1;
+	padding: 10px;
+}
+
+.email-link {
+    color: var(--fhs-blue);
+    text-decoration: none; 
+}
+
+.email-link:hover {
+    color: var(--fhs-blue-hover);
+}
+
+.email-link:active {
+    color: var(--fhs-blue);
+}
+
+.blue-center {
+    color: var(--fhs-blue);
+    text-align: center;
+}
+
+.info-block-black {
+    border: 2px solid var(--fhs-black);
+    border-radius: 10px;
+}
+
+.info-block-blue {
+    border: 2px solid var(--fhs-blue);
+    border-radius: 10px;
+}
+
+.bordered-text {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.img-news {
+	padding-top: 43px;
+    height: 400px;
+    width: 1146px;
+	margin: 0;
+}
+
+.img-news:hover {
+	opacity: 0.7;
+}
+
+.block-news {
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    height: 152px;
+    width: 1146px;
+	margin: 0;
+}
+
+.block-news:hover {
+	opacity: 0.7;
+}
+
+.title-article {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 26px;
+	margin-left: 25px;
+}
+
+.author-article {
+    text-align: right;
+    font-size: 16px;
+	margin-right: 25px;
+}
+
+.container-center {
+    text-align: center;
+}
+
+.row-article {
+	margin: 0;
+}
+/*end of Additional CSS------------------------------------------------------------*/
+
 /*beginning of Jessica's code------------------------------------------------------------*/
 
 /*for displaying images with text underneath. example - home page or staff page*/
