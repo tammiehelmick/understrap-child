@@ -18937,6 +18937,9 @@ body, a, p, li, div, h1, h2, h3, h4, h5, h6 {
 .ptb_search_radio_button .ptb_search_label, .ptb_search_checkbox .ptb_search_label {
     width: 100px !important;
 }
+.ptb-search-form label {
+    float: left !important;
+}
 /*# sourceMappingURL=child-theme.css.map */
 
 
