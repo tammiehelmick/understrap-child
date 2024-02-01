@@ -147,6 +147,115 @@ nav#main-nav {
 /* End of Kaitlyn's Code: */
 
 
+/* Start of Emily's code */
+
+/* Main Footer Wrapper, the main container of the footer */
+#footer-full-content {  
+    background-color: var(--fhs-white); 
+    padding: 20px 10px;
+    font-family: 'Verdana', sans-serif; 
+}
+
+/* Footer Logo, the first column */
+#footer-full-content .wp-block-column:first-child .wp-block-image {
+    max-width: 600px; /* logo width */
+    margin-bottom: 0; /* the space below the logo */
+    display: block;
+    height: auto;
+	width: 190px;
+}
+
+
+/* Remove default list styling  from the second column*/
+.menu-footer-quicklinks-container ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+/* Add vertical spacing between list items */
+.menu-footer-quicklinks-container li {
+    margin-bottom: 1em; 
+}
+
+
+#footer-full-content .wp-block-column:last-child ul li {
+    margin-bottom: 20px; /* This is the space between the list items */
+}
+
+#footer-full-content .wp-block-column.is-layout-flow {
+    width: auto;
+}
+
+#footer-full-content .wp-block-column a {
+    flex-basis: 0;
+    text-decoration: underline;
+}
+
+#footer-full-content .wp-block-column:last-child ul li a:hover {
+    color: var(--fhs-white-hover); /* Color of the links on hover */
+}
+
+#footer-full-content :where(.wp-block-columns.is-layout-flex) {
+    gap: 1em;
+}
+
+#footer-full-content .wp-block-column { /* Footer border */
+  border: 1px solid var(--bs-gray-400); 
+  padding: 10px; /* Add spacing inside the boxes */
+  box-sizing: border-box; 
+}
+
+#footer-full-content .wp-block-column:not(:last-child) {
+  margin-right: 20px; /* Adds space between the boxes */
+}
+
+#footer-full-content .row {  
+  width: 100%; 
+  max-width: 1200px; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.wrapper {
+  padding: 0; /* This reduces the top and bottom padding from 1.5rem to 0.75rem */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer Social Links */
+#footer-full-content .wp-block-social-links {
+    display: flex; /* Aligns the social links in a row */
+    gap: 10px; /* Space between the social links */
+    padding: 0;
+    list-style-type: none; /* Removes default list styling */
+}
+
+.wp-block-social-links, .wp-block-social-links.has-normal-icon-size {
+    font-size: 39px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #footer-full-content .wp-block-column {
+        flex-basis: 100%; /* Stacks the columns on mobile */
+        max-width: 100%; /* Uses full width of the container on mobile */
+    }
+    
+    #footer-full-content .wp-block-social-links {
+        justify-content: center; /* Centers social links on mobile */
+        margin-bottom: 20px; /* Adds space below the social links on mobile */
+    }
+    
+    #footer-full-content .wp-block-column:last-child ul {
+        text-align: center; /* Centers the quick links on mobile */
+    }
+}
+
+
+/* End of Emily's code */
 body {
     margin: 0;
     font-family: var(--bs-body-font-family);
@@ -6157,7 +6266,7 @@ textarea.form-control-lg {
 .navbar {
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0.5rem;
-    --bs-navbar-color: rgba(0, 0, 0, 0.55);
+/*    --bs-navbar-color: rgba(0, 0, 0, 0.55); */
     --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
     --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
     --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
@@ -10905,12 +11014,12 @@ textarea.form-control-lg {
 .text-opacity-100 {
     --bs-text-opacity: 1;
 }
-
+/*
 .bg-primary {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
-
+*/
 .bg-secondary {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -14520,7 +14629,7 @@ a.skip-link:not(:focus):not(:focus-within) {
     white-space: nowrap !important;
     border: 0 !important;
 }
-
+/*
 .navbar-dark .navbar-nav .dropdown-menu .nav-link {
     display: block;
     width: 100%;
@@ -14533,7 +14642,7 @@ a.skip-link:not(:focus):not(:focus-within) {
     background: none;
     border: 0;
 }
-
+*/
     .navbar-dark .navbar-nav .dropdown-menu .nav-link:hover, .navbar-dark .navbar-nav .dropdown-menu .nav-link:focus {
         color: #1e2125 !important;
         text-decoration: none;
@@ -18217,3 +18326,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     }
 
 /*# sourceMappingURL=child-theme.css.map */
+
+footer#colophon {
+    background-color: #ff0000;
+}
