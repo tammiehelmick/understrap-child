@@ -106,7 +106,7 @@ header {
     padding: 0px;
     text-align: left;
     font-size: 30px;
-background-color: var(--fhs-white-hover) !important;
+background-color: #d9d9d9 !important;
   position: relative;
 	flex-wrap: wrap;
 	align-items: center !important;
@@ -132,7 +132,6 @@ header a {
   
   /* background color on hover */
   header a:hover {
-    background-color: var(--fhs-blue-hover);
     color: var(--fhs-black) !important;
   }
   
