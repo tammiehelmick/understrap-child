@@ -144,6 +144,126 @@ nav#main-nav {
     background-color: var(--fhs-white-hover) !important;
 }
 
+/* from CSS GUI Editor */
+header {
+  background-color: var(--fhs-white-hover) !important;
+  position: relative;
+  color: var(--fhs-black) !important;
+	flex-wrap: wrap;
+	align-items: center !important;
+	justify-content: space-between;
+}
+
+header frame {
+  align-items: center !important;
+  display: flex;
+  gap: 90px;
+  height: 32px;
+  justify-content: center;
+  left: 341px;
+  position: absolute;
+  top: 43px;
+  width: 757px;
+	background-color: var(--fhs-white-hover) !important;
+}
+
+header text-wrapper {
+  color: var(--fhs-black) !important;
+	background-color: var(--fhs-white-hover) !important;
+  font-family: "Verdana-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.38px;
+  line-height: 32px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 70px;
+	align-items: center !important;
+}
+
+header div {
+  color: var(--fhs-black) !important;
+	background-color: var(--fhs-white-hover) !important;
+  font-family: "Verdana-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.38px;
+  line-height: 32px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 93px;
+}
+
+header text-wrapper-2 {
+  color: var(--fhs-black) !important;
+	background-color: var(--fhs-white-hover) !important;
+  font-family: "Verdana-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.38px;
+  line-height: 32px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 146px;
+}
+
+header text-wrapper-3 {
+  color: var(--fhs-black) !important;
+	background-color: var(--fhs-white-hover) !important;
+  font-family: "Verdana-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.38px;
+  line-height: 32px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 85px;
+}
+
+header group {
+  height: 32px;
+  left: 1108px;
+  position: absolute;
+  top: 43px;
+  width: 149px;
+	background-color: var(--fhs-white-hover) !important;
+}
+
+header overlap-group {
+  height: 32px;
+  position: relative;
+  width: 147px;
+	background-color: var(--fhs-white-hover) !important;
+}
+
+header text-wrapper-4 {
+  color: var(--fhs-black) !important;
+  font-family: "Verdana-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: -0.38px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 147px;
+	background-color: var(--fhs-white-hover) !important;
+}
+
+header icon-arrow-left {
+  height: 20px !important;
+  left: 104px !important;
+  position: absolute !important;
+  top: 7px !important;
+  width: 20px !important;
+	background-color: var(--fhs-white-hover) !important;
+}
+
 /* End of Kaitlyn's Code: */
 
 
