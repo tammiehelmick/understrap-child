@@ -140,10 +140,6 @@ header a {
     background-color: var(--fhs-blue);
     color: var(--fhs-white);
   }
-
-nav#main-nav {
-    background-color: var(--fhs-white-hover) !important;
-}
 ul#main-menu > li {
     padding: 0 40px;
     background-color: transparent;
