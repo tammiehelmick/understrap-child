@@ -521,7 +521,7 @@ p {
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 1em;
-    color: #0A3E5D;
+    color: var(--fhs-blue);;
 }
 .ptb_loops_wrapper .ptb_post .ptb_items_wrapper.entry-content {
     width: auto !important;
@@ -534,7 +534,7 @@ p {
     float: right;
     text-align: right;
     padding-right: 0em;
-    background-color: #83C757;
+    background-color: var(--fhs-green);
     width: fit-content;
     padding: 0.5em 2.5em;
     padding-right: 3em;
@@ -546,37 +546,37 @@ p {
     width: 15px;
     height: 15px;
     border: 3px solid transparent;
-    margin-top: -7px;
+    margin-top: -10px;
     margin-right: 24px;
-    border-top-color: #333333 !important;
-    border-right-color: #333333 !important;
+    border-top-color: var(--fhs-white) !important;
+    border-right-color: var(--fhs-white) !important;
     right: 0;
 }
 .ptb-post-nav a {
     font-size: 1em;
-    color: #333333;
+    color: var(--fhs-white);
 }
 /* Previous Button */
 .ptb-post-nav .ptb-prev {
     padding-right: 0em;
-    background-color: #033C5C;
+    background-color: var(--fhs-blue);
     padding: 0.5em 2.5em;
     padding-left: 3em;
     border-radius: 200px;
     text-transform: uppercase;
-    width: fit-content;
+    width: min-content;
 }
 .ptb-prev a {
-    color: #fff;
+    color: var(--fhs-white);
 }
 .ptb-post-nav .ptb-prev .ptb-arrow:before {
-    width: 15px;
-    height: 15px;
+    width: 15px !important;
+    height: 15px !important;
     border: 3px solid transparent;
-    margin-top: -7px;
+    margin-top: -10px;
     margin-left: 31px;
-    border-bottom-color: #fff !important;
-    border-left-color: #fff !important;
+    border-bottom-color: var(--fhs-white) !important;
+    border-left-color: var(--fhs-white) !important;
     right: 0;
 }
 .pet-gender {
