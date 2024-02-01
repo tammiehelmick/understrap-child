@@ -6109,7 +6109,7 @@ textarea.form-control-lg {
 .navbar {
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0.5rem;
-    --bs-navbar-color: rgba(0, 0, 0, 0.55);
+/*    --bs-navbar-color: rgba(0, 0, 0, 0.55); */
     --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
     --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
     --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
@@ -10857,12 +10857,12 @@ textarea.form-control-lg {
 .text-opacity-100 {
     --bs-text-opacity: 1;
 }
-
+/*
 .bg-primary {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
-
+*/
 .bg-secondary {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -14472,7 +14472,7 @@ a.skip-link:not(:focus):not(:focus-within) {
     white-space: nowrap !important;
     border: 0 !important;
 }
-
+/*
 .navbar-dark .navbar-nav .dropdown-menu .nav-link {
     display: block;
     width: 100%;
@@ -14485,7 +14485,7 @@ a.skip-link:not(:focus):not(:focus-within) {
     background: none;
     border: 0;
 }
-
+*/
     .navbar-dark .navbar-nav .dropdown-menu .nav-link:hover, .navbar-dark .navbar-nav .dropdown-menu .nav-link:focus {
         color: #1e2125 !important;
         text-decoration: none;
