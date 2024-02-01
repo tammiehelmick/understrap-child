@@ -330,13 +330,6 @@ h2 {
   padding: 1rem 1rem;
   vertical-align: middle;
 }
-
-/*for any block with the green border*/
-
-.hoursBlock {
-	border: 1px solid var(--fhs-green);
-	border-radius: 10px;
-}
 /*end*/
 
 /*classes for aligning something to the left, right or center*/
@@ -431,7 +424,7 @@ h2 {
 
 
 
-/*for displaying info next to eachother, whether it's text or images*/
+/*for displaying info below eachother, whether it's text or images*/
 
 .containers{
 	display: flex;
@@ -441,8 +434,92 @@ h2 {
 	padding: 10px;
 }
 
+/*center a container*/
+
+.container-center {
+    text-align: center;
+}
+
+/*for displaying info next to eachother AND CENTERED, whether it's text or images. example is the small imgs on article page*/
+
+.container-next-center {
+	display: flex;
+	text-align: center;
+}
+
+.row-next-center{
+	flex: 1;
+	padding: 10px;
+}
+
+/*for displaying info next to eachother AND ALIGNED LEFT, whether it's text or images. example is the small imgs on article page*/
+
+.container-next-left {
+	display: flex;
+    text-align: left;
+}
+
+.row-next-left{
+	flex: 1;
+	padding: 10px;
+}
+
 /*end*/
 
+/*padding for bordered text*/
+
+.bordered-text {
+	margin-left: 20px;
+	margin-right: 20px;
+    margin-top: 10px;
+}
+
+/*email link*/
+
+.email-link {
+    color: var(--fhs-blue);
+    text-decoration: none; 
+}
+
+.email-link:hover {
+    color: var(--fhs-blue-hover);
+}
+
+.email-link:active {
+    color: var(--fhs-blue);
+}
+
+/*submit button*/
+
+.submitButton {
+    height: 48px;
+    width: 362px;
+    border-radius: 200px;
+    color: var(--fhs-white);
+    font-weight: bold;
+    background-color: var(--fhs-blue);
+    text-align: center;
+}
+
+.submitButton:hover {
+    height: 48px;
+    width: 362px;
+    border-radius: 200px;
+    color: var(--fhs-white);
+    font-weight: bold;
+    background-color: var(--fhs-blue-hover);
+    text-align: center;
+}
+
+.submitButton:active {
+    height: 48px;
+    width: 362px;
+    border-radius: 200px;
+    color: var(--fhs-white);
+    font-weight: bold;
+    background-color: var(--fhs-blue);
+    text-align: center;
+}
 /*specific photo on adopt page*/
 
 .wp-block-image {
@@ -452,24 +529,83 @@ h2 {
 
 /*end*/
 
+/*news page*/
+
+.img-news {
+	padding-top: 43px;
+    height: 400px;
+    width: 1146px;
+	margin: 0;
+}
+
+.img-news:hover {
+	opacity: 0.7;
+}
+
+.block-news {
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    height: 152px;
+    width: 1146px;
+	margin: 0;
+}
+
+.block-news:hover {
+	opacity: 0.7;
+}
+
+
+.title-article {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 26px;
+	margin-left: 25px;
+}
+
+
+.author-article {
+    text-align: right;
+    font-size: 16px;
+	margin-right: 25px;
+}
+
+/*container and row for news page*/
+
+.container-center {
+    text-align: center;
+}
+
+.row-article {
+	margin: 0;
+}
+
 /*article page*/
 
 .imgArticle {
     height: 394px;
     width: 315px;
     border-radius: 10px;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .articleBlock {
-    height: 77px;
-    width: 1146px;
+    height: 80px;
+    width: 1300px;
     background-color: var(--fhs-blue);
+	display: flex;
+	justify-content: space-between;
+	padding-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .articleDate {
     color: var(--fhs-white);
     font-size: 26px;
     text-align: left;
+	padding-left: 30px;
 }
 
 .articleAuthor {
@@ -498,7 +634,7 @@ h2 {
     width: 950px;
     border-radius: 200px;
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
     background-color: var(--fhs-blue);
 }
 
@@ -507,7 +643,7 @@ h2 {
     width: 950px;
     border-radius: 200px;
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
     background-color: var(--fhs-blue-hover);
 }
 
@@ -516,7 +652,7 @@ h2 {
     width: 950px;
     border-radius: 200px;
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
     background-color: var(--fhs-blue);
 }
 
@@ -739,10 +875,25 @@ button.previousButton {
     border-radius: 10px;
 }
 
-/*any information block with thin black border*/
+/*any information block with 2px BLACK border*/
 
 .info-block-black {
-    border: 1px solid var(--fhs-black);
+    border: 2px solid var(--fhs-black);
+    border-radius: 10px;
+}
+
+/*any information block with 2px BLUE border*/
+
+.info-block-blue {
+    border: 2px solid var(--fhs-blue);
+    border-radius: 10px;
+}
+
+/*for any block with the green border*/
+
+.info-block-green {
+	border: 2px solid var(--fhs-green);
+	border-radius: 10px;
 }
 
 /*any text that needs to be blue AND bold*/
@@ -752,6 +903,12 @@ button.previousButton {
     font-weight: bold;
 }
 
+/*any text that needs to be blue and centered*/
+
+.blue-center {
+    color: var(--fhs-blue);
+    text-align: center;
+}
 /*style for bullet points*/
 
 ul {
