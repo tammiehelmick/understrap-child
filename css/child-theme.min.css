@@ -652,7 +652,6 @@ h1 {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 31px;
-	text-align: center;
 }
 
 a {
@@ -974,12 +973,6 @@ h2 {
 
 .wp-block-heading {
     margin: 5px 0;
-}
-
-h1 {
-    padding-top: 30px;
-	font-size: 31px;
-	text-align: center;
 }
 
 a {
@@ -2059,7 +2052,7 @@ button.pdfButton {
     border-radius: 200px;
 }
 
-/*end of Jessica's code*/
+/*end of Jessica's code-----------------------------------------------------------*/
 
 abbr[title] {
     -webkit-text-decoration: underline dotted;
