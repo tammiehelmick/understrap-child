@@ -18921,6 +18921,22 @@ body, a, p, li, div, h1, h2, h3, h4, h5, h6 {
 .entry-title {
     text-align: left !important;
 }
+.ptb_col_last {
+    margin-top: 0px !important;
+}
+.select2-container, .select2-drop, .select2-search, .select2-search input {
+    box-sizing: border-box;
+    float: left;
+    width: 75% !important;
+}
+.ptb_search_label {
+    margin-bottom: 8px;
+    float: left;
+    width: 100px !important;
+}
+.ptb_search_radio_button .ptb_search_label, .ptb_search_checkbox .ptb_search_label {
+    width: 100px !important;
+}
 /*# sourceMappingURL=child-theme.css.map */
 
 
