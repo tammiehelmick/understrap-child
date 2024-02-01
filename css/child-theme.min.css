@@ -310,7 +310,8 @@ header icon-arrow-left {
 #footer-full-content .wp-block-column { /* Footer border */
   border: 1px solid var(--bs-gray-400); 
   padding: 10px; /* Add spacing inside the boxes */
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  border-radius: 10px; 
 }
 
 #footer-full-content .wp-block-column:not(:last-child) {
@@ -452,6 +453,26 @@ p {
     margin-bottom: 1rem;
     color: var(--fhs-black);
 }
+
+
+
+/*beginning of Tammie's code*/
+figure.tep_image {
+    display: none; !important;
+}
+div#wrapper-footer-full {
+    background-color: #fff;
+}
+
+.ptb-submission-submit-btn, input[type=button], input[type=submit],  .um input[type=submit].um-button { width: 100%; text-align: center; padding: 0.85em 1em; text-transform: uppercase; font-weight: bold; border-radius: 200px !important; color: var(--fhs-white); background-color: var(--fhs-blue); }
+
+input[type=cancel], .um .um-button.um-alt { width: 100%; text-align: center; padding: 0.85em 1em; text-transform: uppercase; font-weight: bold; border-radius: 200px !important; color: var(--fhs-black); background-color: var(--fhs-green); }
+
+#walker_dot_green {background-color: var(--fhs-walker-green); border-radius: 100px; width: 50px; height: 50px;}
+#walker_dot_yellow {background-color: var(--fhs-walker-yellow); border-radius: 100px; width: 50px; height: 50px;}
+#walker_dot_orange {background-color: var(--fhs-walker-orange); border-radius: 100px; width: 50px; height: 50px;}
+.walker_dot_green, .walker_dot_yellow, .walker_dot_orange {width: 50px}
+/*end of Tammie's code*/
 
 /*beginning of Jessica's code*/
 
