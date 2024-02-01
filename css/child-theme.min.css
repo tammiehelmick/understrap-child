@@ -453,10 +453,151 @@ p {
     margin-bottom: 1rem;
     color: var(--fhs-black);
 }
+/*beginning of Polina's code------------------------------------------------------------*/
+/* Pet Name */
+.ptb_adoptable_pet_pet_name h2 {
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+/* Image */
+.ptb_module img {
+    border-radius: 10px;
+    width: auto;
+    margin: auto;
+    margin-top: 0px;
+    display: block;
+}
+.ptb_pet_adopt_me_button .ptb_link, .ptb_pet_learn_more_button .ptb_link {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+/* Breed */
+.ptb_adoptable_pet_breed, .ptb_adoptable_pet_gender {
+    font-weight: bold;
+}
+/* Button */
+.shortcode.ptb_link_button {
+    width: 100%;
+    text-align: center;
+    padding: 0.85em 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 200px !important;
+}
+.ptb_col_first .ptb_link_button {
+    width: auto;
+    padding: 0.5em 1em;
+    margin: 0.2em 0em 0em 0;
+}
+.ptb_last_row .ptb_link_button {
+    width: auto;
+    padding: 0.5em 1em;
+    margin: 0.2em 0em 0em 0;
+}
+/* for border radius we need to change --bs-border-radius */
+/* Input Names */
+.ptb_text_before {
+    font-weight: bold;
+    margin: 0.2em 0em 1em 0;
+}
+.ptb_pet_previous_animal, .ptb_pet_return, .ptb_pet_next_animal {
+    padding: 0em !important;
+    margin: 1em 0em !important;
+}
+/*Pet Profile*/
+.ptb_loops_wrapper .ptb_post .ptb_items_wrapper.entry-content {
+    width: auto;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 0em;
+    border-color: #A0A7AE;
+}
+.ptb_adoptable_pet_pet_name .ptb_loops_shortcode {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 1em;
+    color: #0A3E5D;
+}
+.ptb_adoptable_pet_breed{
+    font-weight: 400;
+}
+/* Next button */
+.ptb-post-nav .ptb-next {
+    float: right;
+    text-align: right;
+    padding-right: 0em;
+    background-color: #83C757;
+    width: fit-content;
+    padding: 0.5em 2.5em;
+    padding-right: 3em;
+    border-radius: 200px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.ptb-post-nav .ptb-next .ptb-arrow:before {
+    width: 15px;
+    height: 15px;
+    border: 3px solid transparent;
+    margin-top: -7px;
+    margin-right: 24px;
+    border-top-color: #333333 !important;
+    border-right-color: #333333 !important;
+    right: 0;
+}
+.ptb-post-nav a {
+    font-size: 1em;
+    color: #333333;
+}
+/* Previous Button */
+.ptb-post-nav .ptb-prev {
+    padding-right: 0em;
+    background-color: #033C5C;
+    padding: 0.5em 2.5em;
+    padding-left: 3em;
+    border-radius: 200px;
+    text-transform: uppercase;
+    width: fit-content;
+}
+.ptb-prev a {
+    color: #fff;
+}
+.ptb-post-nav .ptb-prev .ptb-arrow:before {
+    width: 15px;
+    height: 15px;
+    border: 3px solid transparent;
+    margin-top: -7px;
+    margin-left: 31px;
+    border-bottom-color: #fff !important;
+    border-left-color: #fff !important;
+    right: 0;
+}
+.pet-gender {
+    color: var(--fhs-white-hover);
+    font-size: 16px;
+    padding-left: 10px;
+}
+.ptb_col_last {
+    margin-top: 30px;
+}
+.pet-element {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+    width: min-content !important;
+}
+.pet-name {
+    margin-top: 1.5em;
+}
+.pet-image {
+    border-radius: 10px 0px;
+}
+/*end of Polina's code------------------------------------------------------------*/
 
-
-
-/*beginning of Tammie's code*/
+/*beginning of Tammie's code------------------------------------------------------------*/
 figure.tep_image {
     display: none; !important;
 }
@@ -472,9 +613,9 @@ input[type=cancel], .um .um-button.um-alt { width: 100%; text-align: center; pad
 #walker_dot_yellow {background-color: var(--fhs-walker-yellow); border-radius: 100px; width: 50px; height: 50px;}
 #walker_dot_orange {background-color: var(--fhs-walker-orange); border-radius: 100px; width: 50px; height: 50px;}
 .walker_dot_green, .walker_dot_yellow, .walker_dot_orange {width: 50px}
-/*end of Tammie's code*/
+/*end of Tammie's code------------------------------------------------------------*/
 
-/*beginning of Jessica's code*/
+/*beginning of Jessica's code------------------------------------------------------------*/
 
 /*for displaying images with text underneath. example - home page or staff page*/
 
