@@ -103,11 +103,14 @@
 /* Beginning of Kaitlyn's Code:*/
 
 header {
-    padding: 30px;
+    padding: 0px;
     text-align: left;
-    background-color: var(--fhs-white-hover);
     font-size: 30px;
-	color: var(--fhs-black) !important;
+background-color: var(--fhs-white-hover) !important;
+  position: relative;
+	flex-wrap: wrap;
+	align-items: center !important;
+	justify-content: space-between;
  }
 
 /* header links */
@@ -145,14 +148,6 @@ nav#main-nav {
 }
 
 /* from CSS GUI Editor */
-header {
-  background-color: var(--fhs-white-hover) !important;
-  position: relative;
-  color: var(--fhs-black) !important;
-	flex-wrap: wrap;
-	align-items: center !important;
-	justify-content: space-between;
-}
 
 header frame {
   align-items: center !important;
