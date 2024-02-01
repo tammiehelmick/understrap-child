@@ -145,6 +145,9 @@ ul#main-menu > li {
     background-color: transparent;
     border: 0;
 }
+nav#main-nav {
+    background-color: #d9d9d9;
+}
 
 /* from CSS GUI Editor */
 
@@ -158,12 +161,10 @@ header frame {
   position: absolute;
   top: 43px;
   width: 757px;
-	background-color: var(--fhs-white-hover) !important;
 }
 
 header text-wrapper {
   color: var(--fhs-black) !important;
-	background-color: var(--fhs-white-hover) !important;
   font-family: "Verdana-Bold", Helvetica;
   font-size: 20px;
   font-weight: 700;
@@ -178,7 +179,6 @@ header text-wrapper {
 
 header div {
   color: var(--fhs-black) !important;
-	background-color: var(--fhs-white-hover) !important;
   font-family: "Verdana-Bold", Helvetica;
   font-size: 20px;
   font-weight: 700;
@@ -192,7 +192,6 @@ header div {
 
 header text-wrapper-2 {
   color: var(--fhs-black) !important;
-	background-color: var(--fhs-white-hover) !important;
   font-family: "Verdana-Bold", Helvetica;
   font-size: 20px;
   font-weight: 700;
@@ -206,7 +205,6 @@ header text-wrapper-2 {
 
 header text-wrapper-3 {
   color: var(--fhs-black) !important;
-	background-color: var(--fhs-white-hover) !important;
   font-family: "Verdana-Bold", Helvetica;
   font-size: 20px;
   font-weight: 700;
@@ -224,14 +222,12 @@ header group {
   position: absolute;
   top: 43px;
   width: 149px;
-	background-color: var(--fhs-white-hover) !important;
 }
 
 header overlap-group {
   height: 32px;
   position: relative;
   width: 147px;
-	background-color: var(--fhs-white-hover) !important;
 }
 
 header text-wrapper-4 {
@@ -246,7 +242,6 @@ header text-wrapper-4 {
   text-align: center;
   top: 0;
   width: 147px;
-	background-color: var(--fhs-white-hover) !important;
 }
 
 header icon-arrow-left {
@@ -255,7 +250,6 @@ header icon-arrow-left {
   position: absolute !important;
   top: 7px !important;
   width: 20px !important;
-	background-color: var(--fhs-white-hover) !important;
 }
 
 /* End of Kaitlyn's Code: */
