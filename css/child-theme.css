@@ -113,7 +113,7 @@ header {
 /* header links */
 header a {
     float: left;
-    color: var(--fhs-black) !important;
+    color: #404040 !important;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -6266,7 +6266,7 @@ textarea.form-control-lg {
 .navbar {
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0.5rem;
-/*    --bs-navbar-color: rgba(0, 0, 0, 0.55); */
+    --bs-navbar-color: #333;
     --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
     --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
     --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
