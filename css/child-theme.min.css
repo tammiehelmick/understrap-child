@@ -573,8 +573,8 @@ p {
     width: 15px !important;
     height: 15px !important;
     border: 3px solid transparent !important;
-    margin-top: -7px !important;
-    margin-left: 21px !important;
+    margin-top: -7px;
+    margin-left: 21px;
     border-bottom-color: var(--fhs-white) !important;
     border-left-color: var(--fhs-white) !important;
     right: 0;
