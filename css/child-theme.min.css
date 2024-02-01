@@ -546,7 +546,7 @@ p {
     width: 15px !important;
     height: 15px !important;
     border: 3px solid transparent !important;
-    margin-top: -10px !important;
+    margin-top: -7px !important;
     margin-right: 24px;
     border-top-color: var(--fhs-white) !important;
     border-right-color: var(--fhs-white) !important;
@@ -573,8 +573,8 @@ p {
     width: 15px !important;
     height: 15px !important;
     border: 3px solid transparent !important;
-    margin-top: -10px !important;
-    margin-left: 31px;
+    margin-top: -7px !important;
+    margin-left: 22px !important;
     border-bottom-color: var(--fhs-white) !important;
     border-left-color: var(--fhs-white) !important;
     right: 0;
