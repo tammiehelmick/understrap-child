@@ -543,8 +543,8 @@ p {
     text-transform: uppercase;
 }
 .ptb-post-nav .ptb-next .ptb-arrow:before {
-    width: 15px;
-    height: 15px;
+    width: 15px !important;
+    height: 15px !important;
     border: 3px solid transparent !important;
     margin-top: -10px !important;
     margin-right: 24px;
@@ -564,7 +564,7 @@ p {
     padding-left: 3em;
     border-radius: 200px;
     text-transform: uppercase;
-    width: min-content !important;
+    width: fit-content !important;
 }
 .ptb-prev a {
     color: var(--fhs-white) !important;
