@@ -20075,17 +20075,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   border: 1px solid #e9ecef;
 }
 
-body,
-a,
-p,
-li,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body, a, p, li, div, h1, h2, h3, h4, h5, h6 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .entry-title {
@@ -20094,10 +20084,7 @@ h6 {
 .ptb_col_last {
   margin-top: 0px !important;
 }
-.select2-container,
-.select2-drop,
-.select2-search,
-.select2-search input {
+.select2-container, .select2-drop, .select2-search, .select2-search input {
   box-sizing: border-box;
   float: left;
   width: 75% !important;
@@ -20107,8 +20094,7 @@ h6 {
   float: left;
   width: 100px !important;
 }
-.ptb_search_radio_button .ptb_search_label,
-.ptb_search_checkbox .ptb_search_label {
+.ptb_search_radio_button .ptb_search_label, .ptb_search_checkbox .ptb_search_label {
   width: 100px !important;
 }
 .ptb-search-form label {
