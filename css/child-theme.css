@@ -600,7 +600,7 @@ p {
     display: none; !important;
 }
 div#wrapper-footer-full {
-    background-color: #fff;
+    background-color: #fff !important;
 }
 .site-info {
     text-align: center;
