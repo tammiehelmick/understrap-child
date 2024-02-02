@@ -102,11 +102,11 @@
 
 /* Beginning of Kaitlyn's Code:*/
 
-header {
+header#wrapper-navbar {
     padding: 0px;
     text-align: left;
     font-size: 30px;
-background-color: var(--fhs-white-hover) !important;
+background-color: #d9d9d9 !important;
   position: relative;
 	flex-wrap: wrap;
 	align-items: center !important;
@@ -115,14 +115,13 @@ background-color: var(--fhs-white-hover) !important;
 
 /* header links */
 header a {
-    float: left;
     color: #404040 !important;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px !important;
-    line-height: 25px;
-    border-radius: 4px;
+    font-size: 16px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700 !important;
   }
   
   /* logo link */
@@ -133,7 +132,6 @@ header a {
   
   /* background color on hover */
   header a:hover {
-    background-color: var(--fhs-blue-hover);
     color: var(--fhs-black) !important;
   }
   
@@ -142,9 +140,13 @@ header a {
     background-color: var(--fhs-blue);
     color: var(--fhs-white);
   }
-
+ul#main-menu > li {
+    padding: 0 40px;
+    background-color: transparent;
+    border: 0;
+}
 nav#main-nav {
-    background-color: var(--fhs-white-hover) !important;
+    background-color: #d9d9d9;
 }
 
 /* from CSS GUI Editor */
@@ -159,12 +161,10 @@ header frame {
   position: absolute;
   top: 43px;
   width: 757px;
-	background-color: var(--fhs-white-hover) !important;
 }
 
 header text-wrapper {
   color: var(--fhs-black) !important;
-	background-color: var(--fhs-white-hover) !important;
   font-family: "Verdana-Bold", Helvetica;
   font-size: 20px;
   font-weight: 700;
@@ -179,7 +179,6 @@ header text-wrapper {
 
 header div {
   color: var(--fhs-black) !important;
-	background-color: var(--fhs-white-hover) !important;
   font-family: "Verdana-Bold", Helvetica;
   font-size: 20px;
   font-weight: 700;
@@ -193,7 +192,6 @@ header div {
 
 header text-wrapper-2 {
   color: var(--fhs-black) !important;
-	background-color: var(--fhs-white-hover) !important;
   font-family: "Verdana-Bold", Helvetica;
   font-size: 20px;
   font-weight: 700;
@@ -207,7 +205,6 @@ header text-wrapper-2 {
 
 header text-wrapper-3 {
   color: var(--fhs-black) !important;
-	background-color: var(--fhs-white-hover) !important;
   font-family: "Verdana-Bold", Helvetica;
   font-size: 20px;
   font-weight: 700;
@@ -225,14 +222,12 @@ header group {
   position: absolute;
   top: 43px;
   width: 149px;
-	background-color: var(--fhs-white-hover) !important;
 }
 
 header overlap-group {
   height: 32px;
   position: relative;
   width: 147px;
-	background-color: var(--fhs-white-hover) !important;
 }
 
 header text-wrapper-4 {
@@ -247,7 +242,6 @@ header text-wrapper-4 {
   text-align: center;
   top: 0;
   width: 147px;
-	background-color: var(--fhs-white-hover) !important;
 }
 
 header icon-arrow-left {
@@ -256,7 +250,6 @@ header icon-arrow-left {
   position: absolute !important;
   top: 7px !important;
   width: 20px !important;
-	background-color: var(--fhs-white-hover) !important;
 }
 
 /* End of Kaitlyn's Code: */
@@ -317,7 +310,8 @@ header icon-arrow-left {
 #footer-full-content .wp-block-column { /* Footer border */
   border: 1px solid var(--bs-gray-400); 
   padding: 10px; /* Add spacing inside the boxes */
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  border-radius: 10px; 
 }
 
 #footer-full-content .wp-block-column:not(:last-child) {
@@ -335,10 +329,6 @@ header icon-arrow-left {
   padding: 0; /* This reduces the top and bottom padding from 1.5rem to 0.75rem */
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
 
 /* Footer Social Links */
 #footer-full-content .wp-block-social-links {
@@ -459,8 +449,604 @@ p {
     margin-bottom: 1rem;
     color: var(--fhs-black);
 }
+/*beginning of Polina's code------------------------------------------------------------*/
+/* Pet Name */
+.ptb_adoptable_pet_pet_name h2 {
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+/* Image */
+.ptb_module img {
+    border-radius: 10px;
+    width: auto;
+    margin: auto;
+    margin-top: 0px;
+    display: block;
+}
+.ptb_pet_adopt_me_button .ptb_link, .ptb_pet_learn_more_button .ptb_link {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+/* Breed */
+.ptb_adoptable_pet_breed, .ptb_adoptable_pet_gender {
+    font-weight: bold;
+}
+/* Button */
+.shortcode.ptb_link_button {
+    width: 100%;
+    text-align: center;
+    padding: 0.85em 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 200px !important;
+}
+.ptb_col_first .ptb_link_button {
+    width: auto;
+    padding: 0.5em 1em;
+    margin: 0.2em 0em 0em 0;
+}
+.ptb_last_row .ptb_link_button {
+    width: auto;
+    padding: 0.5em 1em;
+    margin: 0.2em 0em 0em 0;
+}
+/* for border radius we need to change --bs-border-radius */
+/* Input Names */
+.ptb_text_before {
+    font-weight: bold;
+    margin: 0.2em 0em 1em 0;
+}
+.ptb_pet_previous_animal, .ptb_pet_return, .ptb_pet_next_animal {
+    padding: 0em !important;
+    margin: 1em 0em !important;
+}
+/*Pet Profile*/
+.ptb_loops_wrapper .ptb_post .ptb_items_wrapper.entry-content {
+    width: auto;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 0em;
+    border: 1px solid #A0A7AE;
+}
+.ptb_adoptable_pet_pet_name .ptb_loops_shortcode {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 1em;
+    color: var(--fhs-blue);;
+}
+.ptb_loops_wrapper .ptb_post .ptb_items_wrapper.entry-content {
+    width: auto !important;
+}
+.ptb_adoptable_pet_breed{
+    font-weight: 400;
+}
+/* Next button */
+.ptb-post-nav .ptb-next {
+    float: right;
+    text-align: right;
+    padding-right: 0em;
+    background-color: var(--fhs-green);
+    width: fit-content !important;
+    padding: 0.5em 2.5em;
+    padding-right: 3em;
+    border-radius: 200px;
+    color: var(--fhs-white);
+    text-transform: uppercase;
+}
+.ptb-post-nav .ptb-next .ptb-arrow:before {
+    width: 15px !important;
+    height: 15px !important;
+    border: 3px solid transparent !important;
+    margin-top: -10px !important;
+    margin-right: 24px;
+    border-top-color: var(--fhs-white) !important;
+    border-right-color: var(--fhs-white) !important;
+    right: 0;
+}
+.ptb-post-nav a {
+    font-size: 1em;
+    color: var(--fhs-white) !important;
+}
+/* Previous Button */
+.ptb-post-nav .ptb-prev {
+    padding-right: 0em;
+    background-color: var(--fhs-blue);
+    padding: 0.5em 2.5em;
+    padding-left: 3em;
+    border-radius: 200px;
+    text-transform: uppercase;
+    width: fit-content !important;
+}
+.ptb-prev a {
+    color: var(--fhs-white) !important;
+}
+.ptb-post-nav .ptb-prev .ptb-arrow:before {
+    width: 15px !important;
+    height: 15px !important;
+    border: 3px solid transparent !important;
+    margin-top: -10px !important;
+    margin-left: 31px;
+    border-bottom-color: var(--fhs-white) !important;
+    border-left-color: var(--fhs-white) !important;
+    right: 0;
+}
+.pet-gender {
+    color: var(--fhs-white-hover);
+    font-size: 16px;
+}
+.ptb_col_last {
+    margin-top: 30px;
+}
+.pet-element {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+    width: min-content !important;
+}
+.pet-name {
+    margin-top: 1.5em;
+}
+.pet-image {
+    border-radius: 10px 0px;
+}
+/*end of Polina's code------------------------------------------------------------*/
 
-/*beginning of Jessica's code*/
+/*beginning of Tammie's code------------------------------------------------------------*/
+
+.tep_post_category {
+    display: none; !important;
+}
+div#wrapper-footer-full {
+    background-color: #fff;
+}
+.site-info {
+    text-align: center;
+}
+.themify_event_post_loop .themify_event_post {
+    background-color: var(--fhs-blue);
+    padding: 30px;
+    color: var(--fhs-white);
+	border-radius: 10px;
+}
+figure.tep_image {
+    float: left;
+    padding: 0 200px 0 0;
+}
+h2.tep_post_title.entry-title > a {
+    color: #fff !important;
+}
+a.btn.btn-secondary.understrap-read-more-link {
+    color: var(--fhs-black);
+    background-color: var(--fhs-green);
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+div.themify_event_post > figure {
+    display: none;
+}
+article.type-event > img {
+    background-color: var(--fhs-blue);
+    border-radius: 10px;
+    padding: 20px;
+    float: left;
+    margin: 0 40px 0 0;
+}
+body.single-event > h2.tep_post_title.entry-title > a {
+    color: #000 !important;
+}
+
+div.tep_content > p {
+    color: var(--fhs-white-hover);
+    font-size: 14px;
+}
+div.themify_event_post > div.tep_event_info > h2.tep_post_title.entry-title > a {
+    color: var(--fhs-blue) !important;
+}
+div.themify_event_post > div.tep_content > p {
+    color: var(--fhs-black) !important;
+}
+.ptb-submission-submit-btn, input[type=button], input[type=submit],  .um input[type=submit].um-button { width: 100%; text-align: center; padding: 0.85em 1em; text-transform: uppercase; font-weight: bold; border-radius: 200px !important; color: var(--fhs-white); background-color: var(--fhs-blue); }
+
+input[type=cancel], .um .um-button.um-alt { width: 100%; text-align: center; padding: 0.85em 1em; text-transform: uppercase; font-weight: bold; border-radius: 200px !important; color: var(--fhs-black); background-color: var(--fhs-green); }
+
+#walker_dot_green {background-color: var(--fhs-walker-green); border-radius: 100px; width: 50px; height: 50px;}
+#walker_dot_yellow {background-color: var(--fhs-walker-yellow); border-radius: 100px; width: 50px; height: 50px;}
+#walker_dot_orange {background-color: var(--fhs-walker-orange); border-radius: 100px; width: 50px; height: 50px;}
+.walker_dot_green, .walker_dot_yellow, .walker_dot_orange {width: 50px}
+/*end of Tammie's code------------------------------------------------------------*/
+
+/* Beginning of Jason's Code------------------------------------------------------
+.themify_event_post_loop.grid4 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.themify_event_post {
+  width: 100%;
+}
+
+.themify_event_post_loop.grid4 .tep_post_title.entry-title a {
+  color: #fff;
+}
+
+.tep_post_content {
+  background-color: #08324a;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1146px;
+  height: 414px;
+  color: #fff;
+}
+
+.tep_picture {
+  display: show;
+}
+
+.themify_event_post_loop.grid4 .themify_event_post .tep_content {
+  display: none;
+}
+
+#page-wrapper .themify_event_post .tep_content {
+  display: block;
+}
+
+#page-wrapper .themify_event_post .tep_event_info {
+  background-color: #08324a;
+  border-radius: 15px;
+  width: 460px;
+  height: 460px;
+  padding: 20px;
+  color: #fff;
+}
+
+#page-wrapper .themify_event_post .tep_event_info .event-day,
+#page-wrapper .themify_event_post .tep_event_info .event-time,
+#page-wrapper .themify_event_post .tep_event_info .tep_organizer {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#page-wrapper .themify_event_post .tep_event_info .tep_location,
+#page-wrapper .themify_event_post .tep_event_info .tep_address {
+  display: none;
+}
+*/
+/*End of Jason's Code-------------------------------------------------------------------*/
+
+/*beginning of Additional CSS------------------------------------------------------------*/
+.imgContainer {
+	text-align: center;
+}
+
+.imgContainer:hover {
+	opacity: 0.5;
+}
+
+.outer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+	padding-top: 30px;
+  }
+
+ .imgContainer {
+    text-align: center;
+}
+
+.actionPhoto {
+    margin: 0;
+  }
+.actionPhoto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-block-heading {
+    margin: 5px 0;
+}
+
+h1 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 31px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.petName{
+	color: #0A3E5D;
+	font-weight: bold;
+}
+
+.petDescription {
+	color: #59626A;
+}
+
+.petName,
+.petDescription {
+	display: block;
+	padding-left: 15px;
+}
+
+h2 {
+	font-size: 26px;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.info-block-green {
+	border: 2px solid var(--fhs-green);
+	border-radius: 10px;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.adoptButtons {
+	height: 48px;
+	width: 196px;
+	border-radius: 200px;
+	border: 0px;
+	background-color: #0A3E5D;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+.adoptButtons:hover {
+	background-color: #52778C;
+	color: white;
+}
+
+.adoptButtons:active {
+	background-color: #0A3E5D;
+}
+
+.containers{
+	display: flex;
+}
+.rows{
+	flex: 1;
+	padding: 10px;
+}
+
+.wp-block-image {
+	height: 402px;
+	width: 590px;
+}
+
+.imgFeatured {
+	height: 226px;
+	width: 226px;
+}
+
+.containerf{
+	display: flex;
+	padding-top: 50px;
+}
+.rowf{
+	height: 323px;
+	width: 227px;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pet-element {
+	height: 304px;
+	width: 266px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+}
+.pet-breed {
+    color: var(--fhs-white-hover);
+    font-size: 16px;
+	padding-left: 10px;
+}
+
+.pet-age {
+    color: var(--fhs-white-hover);
+    font-size: 16px;
+}
+
+.pet-image {
+    height: 192px;
+    width: 265px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pet-name {
+		padding-left: 10px;
+    font-weight: bold;
+    color: var(--fhs-blue);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.containers{
+	display: flex;
+}
+.rows{
+	flex: 1;
+	padding: 10px;
+}
+
+.imgArticle {
+    height: 394px;
+    width: 315px;
+    border-radius: 10px;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.articleBlock {
+    height: 80px;
+    width: 1300px;
+    background-color: var(--fhs-blue);
+	display: flex;
+	justify-content: space-between;
+	padding-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.articleDate {
+    color: var(--fhs-white);
+    font-size: 26px;
+    text-align: left;
+	padding-left: 30px;
+}
+
+.articleAuthor {
+    color: var(--fhs-white);
+    font-size: 26px;
+    text-align: right;
+}
+
+.smallImgArticle {
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.iconSocial {
+    height: 50px;
+    width: 50px;
+}
+
+.imgCenter {
+	text-align: center;
+}
+.container-next-center {
+	display: flex;
+	text-align: center;
+}
+.row-next-center{
+	flex: 1;
+	padding: 10px;
+}
+
+.container-next-left {
+	display: flex;
+    text-align: left;
+}
+
+.row-next-left{
+	flex: 1;
+	padding: 10px;
+}
+
+.email-link {
+    color: var(--fhs-blue);
+    text-decoration: none; 
+}
+
+.email-link:hover {
+    color: var(--fhs-blue-hover);
+}
+
+.email-link:active {
+    color: var(--fhs-blue);
+}
+
+.blue-center {
+    color: var(--fhs-blue);
+    text-align: center;
+}
+
+.info-block-black {
+    border: 2px solid var(--fhs-black);
+    border-radius: 10px;
+}
+
+.info-block-blue {
+    border: 2px solid var(--fhs-blue);
+    border-radius: 10px;
+}
+
+.bordered-text {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.img-news {
+	padding-top: 43px;
+    height: 400px;
+    width: 1146px;
+	margin: 0;
+}
+
+.img-news:hover {
+	opacity: 0.7;
+}
+
+.block-news {
+    background-color: var(--fhs-blue);
+    color: var(--fhs-white);
+    height: 152px;
+    width: 1146px;
+	margin: 0;
+}
+
+.block-news:hover {
+	opacity: 0.7;
+}
+
+.title-article {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 26px;
+	margin-left: 25px;
+}
+
+.author-article {
+    text-align: right;
+    font-size: 16px;
+	margin-right: 25px;
+}
+
+.container-center {
+    text-align: center;
+}
+
+.row-article {
+	margin: 0;
+}
+/*end of Additional CSS------------------------------------------------------------*/
+
+/*beginning of Jessica's code------------------------------------------------------------*/
 
 /*for displaying images with text underneath. example - home page or staff page*/
 
@@ -494,12 +1080,6 @@ p {
 
 .wp-block-heading {
     margin: 5px 0;
-}
-
-h1 {
-    padding-top: 30px;
-	font-size: 31px;
-	text-align: center;
 }
 
 a {
@@ -622,11 +1202,11 @@ h2 {
 /*adoptable pets element on wordpress - for all animals*/
 
 .pet-name {
-    text-decoration: bold;
     color: var(--fhs-blue);
     font-size: 16px;
     text-transform: uppercase;
-    padding-left: 10px;
+    padding: 10px 0 0 10px;
+    margin: 0px !important;
 }
 
 .pet-breed {
@@ -1579,7 +2159,7 @@ button.pdfButton {
     border-radius: 200px;
 }
 
-/*end of Jessica's code*/
+/*end of Jessica's code-----------------------------------------------------------*/
 
 abbr[title] {
     -webkit-text-decoration: underline dotted;
@@ -18440,6 +19020,29 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
         border: 1px solid #e9ecef;
     }
 
+body, a, p, li, div, h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.entry-title {
+    text-align: left !important;
+}
+.ptb_col_last {
+    margin-top: 0px !important;
+}
+.select2-container, .select2-drop, .select2-search, .select2-search input {
+    box-sizing: border-box;
+    float: left;
+    width: 75% !important;
+}
+.ptb_search_label {
+    margin-bottom: 8px;
+    float: left;
+    width: 100px !important;
+}
+.ptb_search_radio_button .ptb_search_label, .ptb_search_checkbox .ptb_search_label {
+    width: 100px !important;
+}
+.ptb-search-form label {
+    float: left !important;
+}
 /*# sourceMappingURL=child-theme.css.map */
-
-
