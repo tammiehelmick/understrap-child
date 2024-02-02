@@ -660,6 +660,68 @@ input[type=cancel], .um .um-button.um-alt { width: 100%; text-align: center; pad
 .walker_dot_green, .walker_dot_yellow, .walker_dot_orange {width: 50px}
 /*end of Tammie's code------------------------------------------------------------*/
 
+/* Beginning of Jason's Code------------------------------------------------------
+.themify_event_post_loop.grid4 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.themify_event_post {
+  width: 100%;
+}
+
+.themify_event_post_loop.grid4 .tep_post_title.entry-title a {
+  color: #fff;
+}
+
+.tep_post_content {
+  background-color: #08324a;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1146px;
+  height: 414px;
+  color: #fff;
+}
+
+.tep_picture {
+  display: show;
+}
+
+.themify_event_post_loop.grid4 .themify_event_post .tep_content {
+  display: none;
+}
+
+#page-wrapper .themify_event_post .tep_content {
+  display: block;
+}
+
+#page-wrapper .themify_event_post .tep_event_info {
+  background-color: #08324a;
+  border-radius: 15px;
+  width: 460px;
+  height: 460px;
+  padding: 20px;
+  color: #fff;
+}
+
+#page-wrapper .themify_event_post .tep_event_info .event-day,
+#page-wrapper .themify_event_post .tep_event_info .event-time,
+#page-wrapper .themify_event_post .tep_event_info .tep_organizer {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#page-wrapper .themify_event_post .tep_event_info .tep_location,
+#page-wrapper .themify_event_post .tep_event_info .tep_address {
+  display: none;
+}
+*/
+/*End of Jason's Code-------------------------------------------------------------------*/
 
 /*beginning of Additional CSS------------------------------------------------------------*/
 .imgContainer {
