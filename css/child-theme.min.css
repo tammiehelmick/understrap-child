@@ -630,66 +630,72 @@ p {
 
 /*beginning of Tammie's code------------------------------------------------------------*/
 
-figure.tep_image {
-  display: none !important;
+.tep_post_category {
+  display: none; !important;
 }
 div#wrapper-footer-full {
   background-color: #fff;
 }
-
-.ptb-submission-submit-btn,
-input[type='button'],
-input[type='submit'],
-.um input[type='submit'].um-button {
-  width: 100%;
+.site-info {
   text-align: center;
-  padding: 0.85em 1em;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 200px !important;
-  color: var(--fhs-white);
-  background-color: var(--fhs-blue);
 }
-
-input[type='cancel'],
-.um .um-button.um-alt {
-  width: 100%;
-  text-align: center;
-  padding: 0.85em 1em;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 200px !important;
+.themify_event_post_loop .themify_event_post {
+  background-color: var(--fhs-blue);
+  padding: 30px;
+  color: var(--fhs-white);
+border-radius: 10px;
+}
+figure.tep_image {
+  float: left;
+  padding: 0 200px 0 0;
+}
+h2.tep_post_title.entry-title > a {
+  color: #fff !important;
+}
+a.btn.btn-secondary.understrap-read-more-link {
   color: var(--fhs-black);
   background-color: var(--fhs-green);
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+div.themify_event_post > figure {
+  display: none;
+}
+article.type-event > img {
+  background-color: var(--fhs-blue);
+  border-radius: 10px;
+  padding: 20px;
+  float: left;
+  margin: 0 40px 0 0;
+}
+body.single-event > h2.tep_post_title.entry-title > a {
+  color: #000 !important;
 }
 
-#walker_dot_green {
-  background-color: var(--fhs-walker-green);
-  border-radius: 100px;
-  width: 50px;
-  height: 50px;
+div.tep_content > p {
+  color: var(--fhs-white-hover);
+  font-size: 14px;
 }
-#walker_dot_yellow {
-  background-color: var(--fhs-walker-yellow);
-  border-radius: 100px;
-  width: 50px;
-  height: 50px;
+div.themify_event_post > div.tep_event_info > h2.tep_post_title.entry-title > a {
+  color: var(--fhs-blue) !important;
 }
-#walker_dot_orange {
-  background-color: var(--fhs-walker-orange);
-  border-radius: 100px;
-  width: 50px;
-  height: 50px;
+div.themify_event_post > div.tep_content > p {
+  color: var(--fhs-black) !important;
 }
-.walker_dot_green,
-.walker_dot_yellow,
-.walker_dot_orange {
-  width: 50px;
-}
+.ptb-submission-submit-btn, input[type=button], input[type=submit],  .um input[type=submit].um-button { width: 100%; text-align: center; padding: 0.85em 1em; text-transform: uppercase; font-weight: bold; border-radius: 200px !important; color: var(--fhs-white); background-color: var(--fhs-blue); }
+
+input[type=cancel], .um .um-button.um-alt { width: 100%; text-align: center; padding: 0.85em 1em; text-transform: uppercase; font-weight: bold; border-radius: 200px !important; color: var(--fhs-black); background-color: var(--fhs-green); }
+
+#walker_dot_green {background-color: var(--fhs-walker-green); border-radius: 100px; width: 50px; height: 50px;}
+#walker_dot_yellow {background-color: var(--fhs-walker-yellow); border-radius: 100px; width: 50px; height: 50px;}
+#walker_dot_orange {background-color: var(--fhs-walker-orange); border-radius: 100px; width: 50px; height: 50px;}
+.walker_dot_green, .walker_dot_yellow, .walker_dot_orange {width: 50px}
 /*end of Tammie's code------------------------------------------------------------*/
 
 
-/* Beginning of Jason's Code------------------------------------------------------*/
+/* Beginning of Jason's Code------------------------------------------------------
 .themify_event_post_loop.grid4 {
   display: flex;
   flex-direction: column;
@@ -749,7 +755,7 @@ input[type='cancel'],
 #page-wrapper .themify_event_post .tep_event_info .tep_address {
   display: none;
 }
-
+*/
 /*End of Jason's Code-------------------------------------------------------------------*/
 /*beginning of Additional CSS------------------------------------------------------------*/
 .imgContainer {
