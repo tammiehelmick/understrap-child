@@ -86,3 +86,79 @@ function understrap_child_customize_controls_js() {
 	);
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
+
+
+
+
+
+function stray_animals_filter_form_shortcode() {
+    ob_start(); // Start output buffering
+    ?>
+    <!-- Filter Form HTML -->
+    <form id="stray-animals-filter-form">
+        <!-- Dropdown for Animal Type -->
+        <select name="animal_type" id="animal_type">
+            <option value="">Animal Type</option>
+            <!-- Populate with options -->
+        </select>
+        
+        <!-- Dropdown for Gender -->
+        <select name="gender" id="gender">
+            <option value="">Gender</option>
+            <!-- Populate with options -->
+        </select>
+        
+        <!-- Dropdown for Age Group -->
+        <select name="age_group" id="age_group">
+            <option value="">Age Group</option>
+            <!-- Populate with options -->
+        </select>
+        
+        <!-- Dropdown for Breed Type -->
+        <select name="breed_type" id="breed_type">
+            <option value="">Breed Type</option>
+            <!-- Populate with options -->
+        </select>
+        
+        <!-- Dropdown for Other Options -->
+        <select name="other_options" id="other_options">
+            <option value="">Other Options</option>
+            <!-- Populate with options -->
+        </select>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Search">
+    </form>
+
+    <!-- Container for Results -->
+    <div id="stray-animals-results">
+        <!-- Filtered results will be displayed here -->
+    </div>
+    <?php
+    return ob_get_clean(); // Return the buffer content
+}
+add_shortcode('stray_animals_filter_form', 'stray_animals_filter_form_shortcode');
+
+
+
+
+function enqueue_stray_animals_scripts() {
+    wp_enqueue_script('stray-animals-ajax', get_stylesheet_directory_uri() . '/js/stray-animals-ajax.js', array('jquery'), null, true);
+    wp_localize_script('stray-animals-ajax', 'ajax_object', array('ajax_url' => admin_url('admin-ajax.php')));
+}
+add_action('wp_enqueue_scripts', 'enqueue_stray_animals_scripts');
+
+
+
+
+function filter_stray_animals_callback() {
+    // Validate and sanitize inputs
+    // Perform query based on filter parameters
+    // Generate HTML for results
+    // Echo the results
+    wp_die(); // End AJAX request
+}
+add_action('wp_ajax_filter_stray_animals', 'filter_stray_animals_callback');
+add_action('wp_ajax_nopriv_filter_stray_animals', 'filter_stray_animals_callback');
+
+
