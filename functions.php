@@ -99,6 +99,9 @@ function stray_animals_filter_form_shortcode() {
         <!-- Dropdown for Animal Type -->
         <select name="animal_type" id="animal_type">
             <option value="">Animal Type</option>
+			<option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="other">Other</option>
             <!-- Populate with options -->
         </select>
         
@@ -160,5 +163,6 @@ function filter_stray_animals_callback() {
 }
 add_action('wp_ajax_filter_stray_animals', 'filter_stray_animals_callback');
 add_action('wp_ajax_nopriv_filter_stray_animals', 'filter_stray_animals_callback');
+
 
 
