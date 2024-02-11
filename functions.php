@@ -92,53 +92,59 @@ add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_co
 
 
 function stray_animals_filter_form_shortcode() {
-    ob_start(); // Start output buffering
+    ob_start(); // start output buffering
     ?>
-    <!-- Filter Form HTML -->
+    <!-- filter form HTML -->
     <form id="stray-animals-filter-form">
-        <!-- Dropdown for Animal Type -->
+        <!-- dropdown for animal type -->
         <select name="animal_type" id="animal_type">
             <option value="">Animal Type</option>
 			<option value="cat">Cat</option>
             <option value="dog">Dog</option>
             <option value="other">Other</option>
-            <!-- Populate with options -->
         </select>
         
-        <!-- Dropdown for Gender -->
+        <!-- dropdown for gender -->
         <select name="gender" id="gender">
             <option value="">Gender</option>
-            <!-- Populate with options -->
+			<option value="female">Female</option>
+			<option value="male">Male</option>
         </select>
         
-        <!-- Dropdown for Age Group -->
+        <!-- dropdown for age group -->
         <select name="age_group" id="age_group">
             <option value="">Age Group</option>
-            <!-- Populate with options -->
+			<option value="young">Young</option>
+			<option value="adult">Adult</option>
+			<option value="senior">Senior</option>
         </select>
         
-        <!-- Dropdown for Breed Type -->
-        <select name="breed_type" id="breed_type">
-            <option value="">Breed Type</option>
-            <!-- Populate with options -->
+        <!-- dropdown for size type -->
+        <select name="size" id="size">
+            <option value="">Size</option>
+			<option value="small size">Small Size</option>
+			<option value="medium size">Medium Size</option>
+			<option value="large size">Large Size</option>
+			<option value="extra large size">Extra Large Size</option>
         </select>
         
-        <!-- Dropdown for Other Options -->
-        <select name="other_options" id="other_options">
-            <option value="">Other Options</option>
-            <!-- Populate with options -->
+        <!-- dropdown for microchip status -->
+        <select name="microchip_status" id="microchip_status">
+            <option value="">Microchip Status</option>
+			<option value="microchipped">Microchipped</option>
+			<option value="not microchipped">Not Microchipped</option>
         </select>
         
-        <!-- Submit Button -->
+        <!-- submit button -->
         <input type="submit" value="Search">
     </form>
 
-    <!-- Container for Results -->
+    <!-- container for results -->
     <div id="stray-animals-results">
         <!-- Filtered results will be displayed here -->
     </div>
     <?php
-    return ob_get_clean(); // Return the buffer content
+    return ob_get_clean(); // return the buffer content
 }
 add_shortcode('stray_animals_filter_form', 'stray_animals_filter_form_shortcode');
 
