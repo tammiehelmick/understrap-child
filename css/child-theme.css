@@ -2078,6 +2078,8 @@ button.pdfButton {
 
 .item-staff {
     position: relative;
+    width: 100%;
+    max-width: calc(25% - 20px);
 }
 
 .img-staff { /*all staff images on staff page*/
