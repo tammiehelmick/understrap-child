@@ -2070,6 +2070,16 @@ button.pdfButton {
 
 /*staff page*/
 
+.outerStaff {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 photos wide */
+    gap: 20px;
+}
+
+.item-staff {
+    position: relative;
+}
+
 .img-staff { /*all staff images on staff page*/
     height: 264px;
     width: 260px;
@@ -2079,11 +2089,13 @@ button.pdfButton {
 .job-staff {
     color: var(--fhs-blue);
     font-size: 16px;
+    position: absolute;
 }
 
 .name-staff {
     color: var(--fhs-black);
     font-size: 16px;
+    position: absolute;
 }
 
 
