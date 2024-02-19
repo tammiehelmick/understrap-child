@@ -2089,13 +2089,20 @@ button.pdfButton {
 .job-staff {
     color: var(--fhs-blue);
     font-size: 16px;
+}
+
+.text-staff {
     position: absolute;
+    bottom: 0;
+    left: 0;
+     width: 100%;
+    padding: 10px;
+     box-sizing: border-box;
 }
 
 .name-staff {
     color: var(--fhs-black);
     font-size: 16px;
-    position: absolute;
 }
 
 
