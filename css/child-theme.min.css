@@ -2080,6 +2080,11 @@ button.pdfButton {
     position: relative;
 }
 
+.staffh2 {
+    color: var(--fhs-black);
+    font-size: 26px;
+}
+
 .img-staff { /*all staff images on staff page*/
     height: 264px;
     width: 260px;
@@ -2089,6 +2094,7 @@ button.pdfButton {
 .job-staff {
     color: var(--fhs-blue);
     font-size: 16px;
+    font-weight: bold;
 }
 
 .text-staff {
