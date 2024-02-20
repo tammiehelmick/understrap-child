@@ -2072,14 +2072,12 @@ button.pdfButton {
 
 .outerStaff {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 photos wide */
-    gap: 20px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-flow: column;
 }
 
 .item-staff {
     position: relative;
-    width: 100%;
-    max-width: calc(25% - 20px);
 }
 
 .img-staff { /*all staff images on staff page*/
@@ -2629,7 +2627,7 @@ progress {
     }
 
         .blockquote-footer::before, .wp-block-quote cite::before {
-            content: "— ";
+            content: "— ";
         }
 
 .img-fluid {
