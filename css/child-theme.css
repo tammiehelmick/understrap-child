@@ -1064,6 +1064,30 @@ h2 {
 
 /*for displaying images with text underneath. example - home page or staff page*/
 
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .slideshow-image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+  .fade {
+    animation: fadeEffect 5s infinite; /* Adjust the timing as needed */
+  }
+  
+  @keyframes fadeEffect {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+  }
 .imgContainer {
 	text-align: center;
 }
@@ -1211,7 +1235,7 @@ h2 {
 }
 
 .text-container {
-    width: 60%;
+    width: 75%;
 }
 
 .content-audit {
@@ -1551,7 +1575,7 @@ h2 {
     width: 754px;
     border-radius: 200px;
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
     background-color: var(--fhs-blue);
 }
 
@@ -1560,7 +1584,7 @@ h2 {
     width: 754px;
     border-radius: 200px;
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
     background-color: var(--fhs-blue-hover);
 }
 
@@ -1569,7 +1593,7 @@ h2 {
     width: 754px;
     border-radius: 200px;
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
     background-color: var(--fhs-blue);
 }
 
@@ -1589,7 +1613,7 @@ h2 {
     border-radius: 200px;
     background-color: var(--fhs-blue);
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
 }
 
 .resourceButton:hover {
@@ -1598,7 +1622,7 @@ h2 {
     border-radius: 200px;
     background-color: var(--fhs-blue);
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
 }
 
 .resourceButton:active {
@@ -1607,7 +1631,7 @@ h2 {
     border-radius: 200px;
     background-color: var(--fhs-blue-hover);
     color: var(--fhs-white);
-    text-decoration: bold;
+    font-weight: bold;
 }
 
 a:link { /*all links*/
