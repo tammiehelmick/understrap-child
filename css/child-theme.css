@@ -102,6 +102,17 @@
     }
 }
 
+.img-board {
+    width: 360px;
+    height: 341px;
+    border-radius: 10px;
+}
+.img-staff { /*all staff images on staff page*/
+    height: 264px;
+    width: 260px;
+    border-radius: 10px;
+}
+
 /* Beginning of Kaitlyn's Code:*/
 
 header#wrapper-navbar {
@@ -726,17 +737,6 @@ input[type=cancel], .um .um-button.um-alt { width: 100%; text-align: center; pad
 /*End of Jason's Code-------------------------------------------------------------------*/
 
 /*beginning of Additional CSS------------------------------------------------------------*/
-
-.img-board {
-    width: 360px;
-    height: 341px;
-    border-radius: 10px;
-}
-.img-staff { /*all staff images on staff page*/
-    height: 264px;
-    width: 260px;
-    border-radius: 10px;
-}
 
 .imgContainer {
 	text-align: center;
