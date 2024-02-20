@@ -2632,7 +2632,7 @@ progress {
     }
 
         .blockquote-footer::before, .wp-block-quote cite::before {
-            content: "— ";
+            content: "— ";
         }
 
 .img-fluid {
