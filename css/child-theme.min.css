@@ -2074,6 +2074,7 @@ button.pdfButton {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    margin-left: 30px;
 }
 
 .item-staff {
@@ -2632,7 +2633,7 @@ progress {
     }
 
         .blockquote-footer::before, .wp-block-quote cite::before {
-            content: "— ";
+            content: "— ";
         }
 
 .img-fluid {
