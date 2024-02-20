@@ -1204,8 +1204,8 @@ h2 {
 	font-weight: bold;
 }
 .auditButtons {
-	height: 100px;
-	width: 300px;
+	height: 41px;
+	width: 114px;
 	border-radius: 200px;
 	border: 0px;
 	background-color: var(--fhs-blue);
@@ -1214,8 +1214,8 @@ h2 {
 	font-weight: bold;
 }
 .auditButtons:hover {
-	height: 100px;
-	width: 300px;
+	height: 41px;
+	width: 114px;
 	border-radius: 200px;
 	border: 0px;
 	background-color: var(--fhs-blue-hover);
@@ -1225,8 +1225,8 @@ h2 {
 }
 
 .auditButtons:active {
-	height: 100px;
-	width: 300px;
+	height: 41px;
+	width: 114px;
 	border-radius: 200px;
 	border: 0px;
 	background-color: var(--fhs-blue);
