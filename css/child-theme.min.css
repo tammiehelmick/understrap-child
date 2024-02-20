@@ -1136,6 +1136,10 @@ h2 {
     color: var(--fhs-blue);
 }
 
+.h2black {
+    color: var(--fhs-black);
+}
+
 /*end*/
 
 .parent {
