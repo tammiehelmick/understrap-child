@@ -117,6 +117,11 @@
     border-radius: 10px;
 }
 
+.img-map {
+    height: 275px;
+    width: 275px;
+}
+
 /* Beginning of Kaitlyn's Code:*/
 
 header#wrapper-navbar {
