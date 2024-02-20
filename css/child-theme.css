@@ -1203,6 +1203,18 @@ h2 {
 	font-size: 14px;
 	font-weight: bold;
 }
+
+.img-audit {
+    height: 212px;
+    width: 269px;
+    margin-left: 30px;
+}
+
+.content-audit {
+    display: flex;
+    align-items: center;
+}
+
 .auditButtons {
     display: inline-block;
 	height: 41px;
