@@ -103,7 +103,7 @@
 }
 
 #post-17 .entry-title {
-    text-align: center;
+    text-align: center !important;
 }
 
 .img-board {
