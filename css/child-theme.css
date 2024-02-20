@@ -1203,6 +1203,37 @@ h2 {
 	font-size: 14px;
 	font-weight: bold;
 }
+.auditButtons {
+	height: 42px;
+	width: 114px;
+	border-radius: 200px;
+	border: 0px;
+	background-color: var(--fhs-blue);
+	color: var(--fhs-white);
+	font-size: 14px;
+	font-weight: bold;
+}
+.auditButtons:hover {
+	height: 42px;
+	width: 114px;
+	border-radius: 200px;
+	border: 0px;
+	background-color: var(--fhs-blue-hover);
+	color: var(--fhs-white);
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.auditButtons:active {
+	height: 42px;
+	width: 114px;
+	border-radius: 200px;
+	border: 0px;
+	background-color: var(--fhs-blue);
+	color: var(--fhs-white);
+	font-size: 14px;
+	font-weight: bold;
+}
 
 /*end*/
 
