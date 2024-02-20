@@ -6,8 +6,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- /*test2*/
-
  
 :root {
     --fhs-blue: #0A3E5D;
@@ -728,6 +726,12 @@ input[type=cancel], .um .um-button.um-alt { width: 100%; text-align: center; pad
 /*End of Jason's Code-------------------------------------------------------------------*/
 
 /*beginning of Additional CSS------------------------------------------------------------*/
+.img-staff { /*all staff images on staff page*/
+    height: 264px;
+    width: 260px;
+    border-radius: 10px;
+}
+
 .imgContainer {
 	text-align: center;
 }
@@ -2084,12 +2088,6 @@ button.pdfButton {
 .staffh2 {
     color: var(--fhs-black);
     font-size: 26px;
-}
-
-.img-staff { /*all staff images on staff page*/
-    height: 264px;
-    width: 260px;
-    border-radius: 10px;
 }
 
 .job-staff {
