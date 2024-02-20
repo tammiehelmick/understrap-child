@@ -1204,6 +1204,7 @@ h2 {
 	font-weight: bold;
 }
 .auditButtons {
+    display: inline-block;
 	height: 41px;
 	width: 114px;
 	border-radius: 200px;
@@ -1212,8 +1213,10 @@ h2 {
 	color: var(--fhs-white);
 	font-size: 14px;
 	font-weight: bold;
+    text-align: center;
 }
 .auditButtons:hover {
+    display: inline-block;
 	height: 41px;
 	width: 114px;
 	border-radius: 200px;
@@ -1222,9 +1225,11 @@ h2 {
 	color: var(--fhs-white);
 	font-size: 14px;
 	font-weight: bold;
+    text-align: center;
 }
 
 .auditButtons:active {
+    display: inline-block;
 	height: 41px;
 	width: 114px;
 	border-radius: 200px;
@@ -1233,6 +1238,7 @@ h2 {
 	color: var(--fhs-white);
 	font-size: 14px;
 	font-weight: bold;
+    text-align: center;
 }
 
 /*end*/
