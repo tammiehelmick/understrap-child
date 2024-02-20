@@ -2215,6 +2215,7 @@ button.pdfButton {
     height: 398px;
     width: 1146px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .img-home { /*image solely on home page*/
