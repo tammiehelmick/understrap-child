@@ -480,7 +480,7 @@ p {
 }
 /* Image */
 .ptb_module img {
-    border-radius: 10px;
+    border-radius: 100px;
     width: auto;
     margin: auto;
     margin-top: 0px;
@@ -577,7 +577,7 @@ p {
 /* Previous Button */
 .ptb-post-nav .ptb-prev {
     padding-right: 0em;
-    background-color: var(--fhs-blue);
+    background-color: red;
     padding: 0.5em 2.5em;
     padding-left: 3em;
     border-radius: 200px;
