@@ -480,7 +480,7 @@ p {
 }
 /* Image */
 .ptb_module img {
-    border-radius: 10px;
+    border-radius: 100px;
     width: auto;
     margin: auto;
     margin-top: 0px;
