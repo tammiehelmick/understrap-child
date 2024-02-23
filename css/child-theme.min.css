@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
  
 :root {
     --fhs-blue: #0A3E5D;
@@ -479,7 +480,7 @@ p {
 }
 /* Image */
 .ptb_module img {
-    border-radius: 10px;
+    border-radius: 100px;
     width: auto;
     margin: auto;
     margin-top: 0px;
@@ -576,7 +577,7 @@ p {
 /* Previous Button */
 .ptb-post-nav .ptb-prev {
     padding-right: 0em;
-    background-color: var(--fhs-blue);
+    background-color: red;
     padding: 0.5em 2.5em;
     padding-left: 3em;
     border-radius: 200px;
@@ -2183,10 +2184,10 @@ button.pdfButton {
 }
 
 .item-staff {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
 }
 
 .staffh2 {
@@ -2201,7 +2202,7 @@ button.pdfButton {
 }
 
 .text-staff {
-    margin: 0;
+    margin-top: 10px !important;
 }
 
 .name-staff {
@@ -2214,6 +2215,7 @@ button.pdfButton {
     height: 398px;
     width: 1146px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .img-home { /*image solely on home page*/

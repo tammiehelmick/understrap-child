@@ -614,6 +614,14 @@ p {
 .pet-image {
     border-radius: 10px 0px;
 }
+
+/* New code for milestone 6*/
+.wp-container-core-group-layout-4 .wp-block-image img {
+    max-width: 80% !important;
+    border-radius: 10px !important;
+}
+
+
 /*end of Polina's code------------------------------------------------------------*/
 
 /*beginning of Tammie's code------------------------------------------------------------*/
