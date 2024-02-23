@@ -821,6 +821,11 @@ h2 {
   vertical-align: middle;
 }
 
+.about-us-block {
+    display: flex;
+    justify-content: space-between;
+}
+
 .info-block-green {
 	border: 2px solid var(--fhs-green);
 	border-radius: 10px;
