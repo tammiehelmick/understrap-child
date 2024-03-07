@@ -1237,12 +1237,6 @@ span.ep-event-date.ep-fw-bold.ep-text-dark {
 .text-staff {
     margin-top: 10px !important;
 }
-.entry-meta{
-    display:none 
-}
-.bdp-post-meta{
-    display:none 
-}
 figure.wp-block-image.size-full {
     display: block;
     margin-left: auto;
