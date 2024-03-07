@@ -12602,6 +12602,9 @@ body.single-post img.attachment-large.size-large.wp-post-image {
     text-align: center;
     position: relative;
 }
+.bd-meta-data-box span {
+    color: #fff;
+}
 .bdp_blog_template .bd-meta-data-box .bd-metadate {
     float: right !important;
 }
