@@ -93,6 +93,18 @@
     border-left: none !important;
     border-right: none !important;
 }
+.date-container h5 {
+    font-size: 27px;
+    margin: 22px 0 0 15px;
+}
+.author-container {
+    float: right;
+    margin: 17px 15px 0 0;
+}
+.author-container h5 {
+    width: 200px;
+    margin: 10px;
+}
 .border-black-2px {
  border: solid 2px #000;
     border-radius: 9px;
