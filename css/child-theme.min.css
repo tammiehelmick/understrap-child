@@ -12552,7 +12552,8 @@ body {
 }
 .bd-post-image-blur {
     z-index: -1;
-    filter: blur(4px)
+    filter: blur(4px);
+    display:none;
 }
 .bdp_blog_template.lightbreeze {
     box-shadow: none !important;
