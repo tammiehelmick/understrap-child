@@ -105,6 +105,9 @@
     width: 200px;
     margin: 10px;
 }
+body.single .test {
+    margin: 0 0 30px 0;
+}
 .border-black-2px {
  border: solid 2px #000;
     border-radius: 9px;
