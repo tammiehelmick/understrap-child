@@ -12550,15 +12550,26 @@ body {
 .bdp_blog_template.lightbreeze .bd-post-image {
     max-height: 370px !important;
 }
+.bd-post-image-blur {
+    z-index: -1;
+    filter: blur(4px)
+}
 .bdp_blog_template.lightbreeze {
     box-shadow: none !important;
     max-height: 370px !important;
+    padding: 0;
 }
 .bdp_wrapper {
     max-height: 370px !important;
 }
 .bdp_blog_template.lightbreeze .bd-post-image img {
-    transform: scale(0.25) !important;
+    transform: none;
+    top: 0 !important;
+    margin: 0 auto;
+    display: block;
+    position: unset;
+    height: 370px;
+    width: auto;
 }
 figure, img, img.wp-post-image, article img, #secondary img {
     max-width: 100%;
