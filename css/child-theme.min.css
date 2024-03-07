@@ -12564,13 +12564,29 @@ body {
     max-height: 370px !important;
 }
 .bdp_blog_template .bd-blog-header {
-    margin: -87px 0;
+    margin: -85px 0;
     height: 85px;
     z-index: 3;
     position: relative;
     background-color: #103E5D;
     padding: 20px 0 0 20px;
     border-radius: 0 0 9px 9px;
+}
+.bd-metadate {
+    color: #fff;
+    margin: -45px 0 0 0;
+}
+.bdp_blog_template .bd-meta-data-box .bd-metadate {
+    float: right !important;
+}
+.bdp_blog_template a {
+    color: #fff !important;
+}
+.bdp_blog_template.lightbreeze {
+    border-radius: 9px !important;
+}
+.bd-post-footer {
+    display: none !important;
 }
 .bdp_blog_template.lightbreeze .bd-post-image img {
     transform: none;
@@ -12580,6 +12596,9 @@ body {
     position: unset;
     height: 370px;
     width: auto;
+}
+.bdp_blog_template .bd-meta-data-box {
+    border-bottom: none !important;
 }
 figure, img, img.wp-post-image, article img, #secondary img {
     max-width: 100%;
