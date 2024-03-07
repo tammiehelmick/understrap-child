@@ -91,6 +91,7 @@
 }
 .border-black-2px {
  border: solid 2px #000
+    border-radius: 9px;
 }
 .entry-content {
     margin: 0px 70px;
