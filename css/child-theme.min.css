@@ -12554,6 +12554,29 @@ body {
     max-height: 370px !important;
     padding: 0;
 }
+body.single-post .entry-meta {
+    background-color: #103e5d;
+    padding: 25px 10px;
+    width: 80%;
+    border-radius: 9px;
+    margin: 412px auto 0 auto;
+    color: #fff !important;
+    text-align: left;
+    position: absolute;
+}
+body.single-post .entry-meta span a {
+    color: #fff !important;
+}
+span.byline {
+    font-size: 15px;
+    float: right;
+}
+span.posted-on {
+    font-size: 15px;
+}
+time.updated {
+    display: none;
+}
 .bdp_wrapper {
     max-height: 370px !important;
 }
