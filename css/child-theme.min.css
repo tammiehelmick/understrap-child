@@ -108,6 +108,9 @@
 body.single .test {
     margin: 0 0 30px 0;
 }
+body.single .heateor_sss_sharing_container.heateor_sss_horizontal_sharing {
+    margin-bottom: 50px;
+}
 .border-black-2px {
  border: solid 2px #000;
     border-radius: 9px;
@@ -12542,6 +12545,7 @@ body {
 }
 .entry-footer span {
     padding-right: 10px;
+    display: none;
 }
 figure, img, img.wp-post-image, article img, #secondary img {
     max-width: 100%;
