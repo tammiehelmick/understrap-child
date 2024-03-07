@@ -90,7 +90,7 @@
     }
 }
 .ep-border-left, .ep-border-right {
-    border-left: none;
+    border-left: none !important;
 }
 .border-black-2px {
  border: solid 2px #000;
