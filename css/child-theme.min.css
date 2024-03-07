@@ -12547,6 +12547,19 @@ body {
     padding-right: 10px;
     display: none;
 }
+.bdp_blog_template.lightbreeze .bd-post-image {
+    max-height: 370px !important;
+}
+.bdp_blog_template.lightbreeze {
+    box-shadow: none !important;
+    max-height: 370px !important;
+}
+.bdp_wrapper {
+    max-height: 370px !important;
+}
+.bdp_blog_template.lightbreeze .bd-post-image img {
+    transform: scale(0.25) !important;
+}
 figure, img, img.wp-post-image, article img, #secondary img {
     max-width: 100%;
     height: auto;
