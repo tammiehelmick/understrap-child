@@ -12577,10 +12577,7 @@ span.posted-on {
 time.updated {
     display: none;
 }
-body.single-post img.attachment-large.size-large.wp-post-image {
-        display: none;
-    }
-}
+
 .bdp_wrapper {
     max-height: 370px !important;
 }
