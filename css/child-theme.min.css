@@ -1652,10 +1652,10 @@ h2 {
     flex: 1;
     padding: 10px;
 }
-.wp-block-image {
+/* .wp-block-image {
     height: 402px;
     width: 590px;
-}
+} */
 .imgFeatured {
     height: 226px;
     width: 226px;
