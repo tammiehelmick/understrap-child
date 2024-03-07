@@ -89,6 +89,9 @@
         scroll-behavior: smooth;
     }
 }
+.wp-block-image .is-style-rounded img, .wp-block-image.is-style-circle-mask img, .wp-block-image.is-style-rounded img {
+    border-radius: 9px !important;
+}
 #post-17 .entry-title {
     text-align: center !important;
 }
