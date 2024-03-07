@@ -12594,6 +12594,13 @@ time.updated {
     color: #fff;
     margin: -45px 0 0 0;
 }
+body.single-post img.attachment-large.size-large.wp-post-image {
+    height: 370px;
+    width: auto;
+    margin: 0 auto 150px auto;
+    border-radius: 9px;
+    text-align: center;
+}
 .bdp_blog_template .bd-meta-data-box .bd-metadate {
     float: right !important;
 }
