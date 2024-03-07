@@ -1103,11 +1103,11 @@ span.ep-event-date.ep-fw-bold.ep-text-dark {
     padding: 5px;
     margin: 10 auto;
 }
-.rp-photo-size {
+/*.rp-photo-size {
     height: 250px;
     width: 410px;
     border-radius: 10px;
-}
+}*/
 .blue-center {
     color: var(--fhs-blue);
     text-align: center;
