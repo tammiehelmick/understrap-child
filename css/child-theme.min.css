@@ -89,6 +89,9 @@
         scroll-behavior: smooth;
     }
 }
+.border-black-2px {
+ border: solid 2px #000
+}
 .entry-content {
     margin: 0px 70px;
 }a
