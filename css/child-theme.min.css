@@ -93,6 +93,9 @@
  border: solid 2px #000;
     border-radius: 9px;
 }
+.lr-margin-100 {
+    margin: 0 100px;
+}
 .entry-content {
     margin: 0px 70px;
 }a
