@@ -2104,10 +2104,6 @@ h2 {
     background-color: var(--fhs-blue);
     text-align: center;
 }
-.wp-block-image {
-    height: 402px;
-    width: 590px;
-}
 .img-news {
     padding-top: 43px;
     height: 400px;
