@@ -12597,9 +12597,10 @@ time.updated {
 body.single-post img.attachment-large.size-large.wp-post-image {
     height: 370px;
     width: auto;
-    margin: 0 auto 150px auto;
+    margin: 0 33% 150px 37%;
     border-radius: 9px;
     text-align: center;
+    position: relative;
 }
 .bdp_blog_template .bd-meta-data-box .bd-metadate {
     float: right !important;
