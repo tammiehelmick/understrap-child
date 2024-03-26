@@ -897,7 +897,7 @@ a.ep-fs-5.ep-fw-bold.ep-text-dark {
     color: var(--fhs-white) !important;
 }
 .ep-text-small.ep-text-uppercase.ep-text-warning.ep-fw-bold {
-    color: var(--fhs-green) !important;
+    color: var(--fhs-white-hover) !important;
 }
 element.style {
     background-color: var(--fhs-blue) !important;
