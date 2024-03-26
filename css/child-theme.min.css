@@ -85,7 +85,7 @@
     box-sizing: border-box;
 }
 .ptb-submission-required {
-    color: #b01212;
+    color: #b01212 !important;
 }
 @media (prefers-reduced-motion: no-preference) {
     :root {
