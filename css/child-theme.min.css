@@ -84,6 +84,9 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+.ptb-submission-required {
+    color: #b01212;
+}
 @media (prefers-reduced-motion: no-preference) {
     :root {
         scroll-behavior: smooth;
