@@ -3163,9 +3163,6 @@ progress {
     .entry-content {
     margin: 0px 10px;
     }
-    button.ubermenu-responsive-toggle-align-full {
-        width: 100px !important;
-    }
 }
 @media (min-width: 768px) {
     .container-md, .container-sm, .container {
