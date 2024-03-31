@@ -348,10 +348,11 @@ header icon-arrow-left {
     #footer-full-content .wp-block-column:last-child ul {
         text-align: center;
     }
-}
-.entry-content {
+    .entry-content {
     margin: 0px 10px;
+    }
 }
+
 
 body.page-id-453 .wp-block-image {
     height: auto;
