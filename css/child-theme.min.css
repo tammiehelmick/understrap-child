@@ -3157,6 +3157,9 @@ progress {
     .container-sm, .container {
         max-width: 540px;
     }
+    .entry-content {
+    margin: 0px 10px;
+    }
 }
 @media (min-width: 768px) {
     .container-md, .container-sm, .container {
