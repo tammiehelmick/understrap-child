@@ -12607,6 +12607,9 @@ time.updated {
     color: #fff;
     margin: -45px 0 0 0;
 }
+.navbar-toggler {
+    display:none;
+}
 body.single-post img.attachment-large.size-large.wp-post-image {
     height: 370px;
     width: auto;
