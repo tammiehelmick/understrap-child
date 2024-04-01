@@ -1680,6 +1680,25 @@ figure.wp-block-image.size-large {
 .page-id-35 .wp-block-image img {
     height: 600px;
 }
+
+.page-id-35 .wp-block-buttons.is-layout-flex {
+    width: 100%; 
+    max-width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+	justify-content: center;
+}
+
+.page-id-35 .wp-block-button {
+    flex: 1; 
+}
+
+.page-id-35 .wp-block-button__link {
+	 display: block; 
+  text-align: center;
+  padding: 12px 24px; 
+}
+
 /*LOST PET PAGE */
 
 .reclaiming-a-pet {
@@ -1727,7 +1746,7 @@ figure.wp-block-image.size-large {
     display: flex !important;  
     justify-content: center !important; 
     align-items: center !important;  
-    grid-gap: 150px;
+    grid-gap: 80px;
     padding-top: 30px;
 }
 
@@ -1782,6 +1801,8 @@ figure.wp-block-image.size-large {
 .lost-pet-gender-post{
 	font-size: 20px;
 }
+
+
 
 /* End Animal Control - Emily -------------------------------------------------------------- */
 
