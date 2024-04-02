@@ -396,10 +396,6 @@ body {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.imgContainer{
-  float:left;
-}
-
 hr {
     margin: 1rem 0;
     color: inherit;
@@ -1958,11 +1954,11 @@ img.wp-post-image.wp-image-685 {
 
 /*beginning of Additional CSS------------------------------------------------------------*/
 
-.imgContainerTwo {
+.imgContainer {
 	text-align: center;
 }
 
-.imgContainerTwo:hover {
+.imgContainer:hover {
 	opacity: 0.5;
 }
 
