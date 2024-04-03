@@ -2015,7 +2015,7 @@ h2 {
 }
 
 .auditButtons a {
-    word-break: normal;
+    word-break: normal !important;
 }
 
 .auditButtons:hover {
