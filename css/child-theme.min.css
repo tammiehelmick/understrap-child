@@ -2019,6 +2019,11 @@ h2 {
     word-wrap: normal !important;
 }
 
+.wp-block-buttons.is-layout-flex {
+    justify-content: left;
+    row-gap: 10px;
+}
+
 .auditButtons:hover {
     display: inline-block;
     height: 41px;
