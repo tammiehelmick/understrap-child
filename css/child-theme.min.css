@@ -2013,6 +2013,11 @@ h2 {
     font-weight: bold;
     text-align: center;
 }
+
+.auditButtons a {
+    word-break: normal;
+}
+
 .auditButtons:hover {
     display: inline-block;
     height: 41px;
