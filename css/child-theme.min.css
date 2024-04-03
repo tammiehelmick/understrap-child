@@ -2016,6 +2016,7 @@ h2 {
 
 .auditButtons a {
     word-break: normal !important;
+    word-wrap: normal !important;
 }
 
 .auditButtons:hover {
