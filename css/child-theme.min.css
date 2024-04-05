@@ -1476,9 +1476,9 @@ body.cats-template-default > div.site > div.wrapper > div.container > div.row > 
 .adoptable_or_lost-lost .adopted-pet-data {
     display: none;
 }
-.adoptable_or_lost-adoptable .lost-pet-data {
+/* .adoptable_or_lost-adoptable .lost-pet-data {
     display: none;
-}
+} */
 .walker-info-green, .walker-info-yellow, .walker-info-orange {
     margin-bottom: 0px;
     margin-top: 0px;
