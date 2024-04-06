@@ -2397,26 +2397,13 @@ button.previousButton {
 }
 .serviceButton {
     width: 290px;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: var(--fhs-blue);
     color: var(--fhs-white);
     font-weight: bold;
 }
 .serviceButton:hover {
-    height: 65px;
-    width: 290px;
-    border-radius: 200px;
     background-color: var(--fhs-blue-hover);
-    color: var(--fhs-white);
-    font-weight: bold;
-}
-.serviceButton:active {
-    height: 65px;
-    width: 290px;
-    border-radius: 200px;
-    background-color: var(--fhs-blue);
-    color: var(--fhs-white);
-    font-weight: bold;
 }
 .imgService {
     height: 333px;
