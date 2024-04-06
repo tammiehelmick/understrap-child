@@ -2396,9 +2396,8 @@ button.previousButton {
     background-color: var(--fhs-blue);
 }
 .serviceButton {
-    height: 65px;
     width: 290px;
-    border-radius: 200px;
+    border-radius: 20px;
     background-color: var(--fhs-blue);
     color: var(--fhs-white);
     font-weight: bold;
