@@ -15338,3 +15338,7 @@ body, a, p, li, div, h1, h2, h3, h4, h5, h6 {
 .ptb-search-form label {
     float: left !important;
 }
+
+.padding-for-top {
+    padding-top: 40px;
+}
