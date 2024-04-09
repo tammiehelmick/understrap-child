@@ -15340,5 +15340,9 @@ body, a, p, li, div, h1, h2, h3, h4, h5, h6 {
 }
 
 .padding-for-top {
-    padding-top: 40px;
+    padding-top: 30px;
+}
+
+.padding-for-box {
+    padding: 30px;
 }
